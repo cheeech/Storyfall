@@ -9,7 +9,7 @@
 User.destroy_all
 
 User.create ([
-  {email: 'chenghtmark@gmeail.com'},
+  {email: 'chenghtmark@gmail.com'},
   {email: 'mark@mindfund.com'},
   {email: 'mark@yahoo.com'},
   ])

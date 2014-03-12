@@ -10,3 +10,8 @@ form#login-form accept-charset="UTF-8" action="#" method="post"
         input#user_password name="user[password]" placeholder="Password" type="passowrd"
       .form-group
         input.btn.btn-success type="submit" value=("Sign In")
+
+ol
+  - @users.each do |some_user|
+    li
+      =some_user.email
