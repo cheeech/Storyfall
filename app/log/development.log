@@ -14819,3 +14819,151 @@ ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.ma
   Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
   Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
   Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (10.7ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1290ms
+  MOPED: 127.0.0.1:27017 INSERT       database=app_development collection=users documents=[{"_id"=>BSON::ObjectId('531fdc254d6172ea97000000'), "email"=>"chenghtmark@gmail.com", "updated_at"=>2014-03-12 04:02:43 UTC, "created_at"=>2014-03-12 04:02:43 UTC}] flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 116.8200ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4280ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8100ms
+  MOPED: Retrying connection attempt 1 more time(s). runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0270ms
+
+
+Started GET "/terms" for 127.0.0.1 at 2014-03-12 13:43:08 +0800
+Processing by SiteController#terms as HTML
+  Rendered site/terms.html.slim within layouts/application (11.5ms)
+Completed 200 OK in 62ms (Views: 61.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-12 13:43:08 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-12 13:43:08 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-03-12 13:43:08 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-03-12 13:43:08 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-12 13:43:08 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-12 13:43:08 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-12 13:43:08 +0800
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-03-12 13:43:08 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.5ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (30.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-12 13:43:30 +0800
+Processing by SiteController#index as HTML
+  Rendered site/index.html.slim within layouts/application (4.0ms)
+Completed 200 OK in 8ms (Views: 8.1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-12 13:43:30 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-12 13:43:30 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-03-12 13:43:30 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-12 13:43:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-12 13:43:30 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-03-12 13:43:30 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-12 13:43:30 +0800
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-03-12 13:43:30 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (11.1ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0680ms
+  MOPED: Retrying connection attempt 1 more time(s). runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9950ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0870ms
+  MOPED: Retrying connection attempt 1 more time(s). runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8580ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.3160ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=app_development command={:count=>"users", :query=>{}} runtime: 2.0920ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4730ms
+  MOPED: 127.0.0.1:27017 DELETE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('531fdc254d6172ea97000000')} flags=[:remove_first]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 5.8860ms
+  MOPED: 127.0.0.1:27017 INSERT       database=app_development collection=users documents=[{"_id"=>BSON::ObjectId('531ff8264d6172ec3d000000'), "email"=>"chenghtmark@gmeail.com", "updated_at"=>2014-03-12 06:01:10 UTC, "created_at"=>2014-03-12 06:01:10 UTC}] flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.4580ms
+  MOPED: 127.0.0.1:27017 INSERT       database=app_development collection=users documents=[{"_id"=>BSON::ObjectId('531ff8264d6172ec3d010000'), "email"=>"mark@mindfund.com", "updated_at"=>2014-03-12 06:01:10 UTC, "created_at"=>2014-03-12 06:01:10 UTC}] flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.2410ms
+  MOPED: 127.0.0.1:27017 INSERT       database=app_development collection=users documents=[{"_id"=>BSON::ObjectId('531ff8264d6172ec3d020000'), "email"=>"mark@yahoo.com", "updated_at"=>2014-03-12 06:01:10 UTC, "created_at"=>2014-03-12 06:01:10 UTC}] flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.2540ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.3050ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2760ms
