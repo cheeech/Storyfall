@@ -17401,3 +17401,26 @@ ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.ma
   MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{}, "$orderby"=>{:_id=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4890ms
   MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.4060ms
   MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3450ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2940ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3270ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{}, "$orderby"=>{:_id=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5810ms
+  MOPED: 127.0.0.1:27017 INSERT       database=app_development collection=users documents=[{"_id"=>BSON::ObjectId('53202f224d6172f324000000'), "email"=>"chenghtmark@gmail.com", "salt"=>"$2a$10$eQbvNmDXdSKsTB5bZWsV9u", "fish"=>"$2a$10$eQbvNmDXdSKsTB5bZWsV9uRZrA2Lklcfujl4R8WOZDVwtrFKrsvGy", "updated_at"=>2014-03-12 09:56:08 UTC, "created_at"=>2014-03-12 09:56:08 UTC}] flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.4970ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5330ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{}, "$orderby"=>{:_id=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4580ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6960ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-13 09:04:20 +0800
+Processing by SiteController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+LoadError (cannot load such file -- bcrypt):
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/site_controller.rb:4:in `index'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.1ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.0ms)
