@@ -60,3 +60,7 @@ footer > .container {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.logout-link {
+  margin-top: 8px;
+}
