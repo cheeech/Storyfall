@@ -23,7 +23,8 @@ html
       main.container.main role="main"
         .row
           .col-md-4.col-md-offset-4
-            ==yield
+            == yield
+            == render partial: "layouts/messages"
 
 
 

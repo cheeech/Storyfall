@@ -8,9 +8,20 @@
 
 User.destroy_all
 
+temp_password = "123"
+
 User.create ([
-  {email: 'chenghtmark@gmail.com'},
-  {email: 'mark@mindfund.com'},
-  {email: 'mark@yahoo.com'},
+  { email: 'chenghtmark@gmail.com',
+    password: temp_password,
+    password_confirmation: temp_password
+  },
+  { email: 'mark@mindfund.com',
+    password: temp_password,
+    password_confirmation: temp_password
+  },
+  { email: 'mark@yahoo.com',
+    password: temp_password,
+    password_confirmation: temp_password
+    },
   ])
 
