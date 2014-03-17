@@ -10,11 +10,14 @@ class SessionController < ApplicationController
 
   def create
     # render text: "Log the user in."
-    @user = User.authenticate(params[:user][:email], params[:user][:password])
+    user = User.authenticate(params[:user][:email], params[:user][:password])
+    password = params[:user][:password]
 
-    if @user
-      session[:user_id] = @user.id
-      # render text: "Logged in yo! #{@user.email}"
+    if password.blank?
+      render text: "Time to reset password"
+
+    elsif user and user.authenticate(password)
+      session[:user_id] = user.id
       redirect_to root_url
 
     else
