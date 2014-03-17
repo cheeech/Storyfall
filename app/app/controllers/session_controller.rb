@@ -10,11 +10,14 @@ class SessionController < ApplicationController
 
   def create
     # render text: "Log the user in."
-    user = User.authenticate(params[:user][:email], params[:user][:password])
+    user = User.find_by(email: params[:user][:email])
     password = params[:user][:password]
 
-    if password.blank?
-      render text: "Time to reset password"
+    if user and password.blank?
+      user.set_password_reset
+      UserNotifier.reset_password(user).deliver
+      flash.now[:notice] = "We'll send you an email.."
+      render :new
 
     elsif user and user.authenticate(password)
       session[:user_id] = user.id

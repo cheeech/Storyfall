@@ -30935,3 +30935,3581 @@ Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 14:23:18 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 14:23:18 +0800
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 14:54:48 +0800
+
+SyntaxError (/Users/markcheng/Documents/General Assembly/WDI/GitHub/Repo/Storyfall/app/app/controllers/session_controller.rb:18: syntax error, unexpected '=', expecting keyword_end
+      flash.now(:notice) = "We'll send you an email.."
+                          ^):
+  activesupport (4.0.3) lib/active_support/dependencies.rb:424:in `load'
+  activesupport (4.0.3) lib/active_support/dependencies.rb:424:in `block in load_file'
+  activesupport (4.0.3) lib/active_support/dependencies.rb:616:in `new_constants_in'
+  activesupport (4.0.3) lib/active_support/dependencies.rb:423:in `load_file'
+  activesupport (4.0.3) lib/active_support/dependencies.rb:324:in `require_or_load'
+  activesupport (4.0.3) lib/active_support/dependencies.rb:463:in `load_missing_constant'
+  activesupport (4.0.3) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.0.3) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.3) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.3) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.3) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.3) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.3) lib/active_support/dependencies.rb:535:in `get'
+  activesupport (4.0.3) lib/active_support/dependencies.rb:566:in `constantize'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:373:in `_run__2814480621971300835__call__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 14:56:08 +0800
+Processing by SessionController#new as HTML
+Completed 500 Internal Server Error in 1ms
+
+SyntaxError (/Users/markcheng/Documents/General Assembly/WDI/GitHub/Repo/Storyfall/app/app/models/user.rb:56: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/application_controller.rb:15:in `current_user'
+  app/controllers/session_controller.rb:7:in `new'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 14:56:20 +0800
+Processing by SessionController#new as HTML
+Completed 500 Internal Server Error in 1ms
+
+SyntaxError (/Users/markcheng/Documents/General Assembly/WDI/GitHub/Repo/Storyfall/app/app/models/user.rb:56: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/application_controller.rb:15:in `current_user'
+  app/controllers/session_controller.rb:7:in `new'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 14:57:53 +0800
+Processing by SessionController#new as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant PASSWORD_RESET_EXPIRES):
+  app/models/user.rb:3:in `<top (required)>'
+  app/controllers/application_controller.rb:15:in `current_user'
+  app/controllers/session_controller.rb:7:in `new'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 14:58:17 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3150ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2430ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2640ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 23ms (Views: 4.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 14:58:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 14:58:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 14:58:17 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 14:58:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 14:58:17 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 14:58:17 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 14:58:17 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 14:58:19 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2960ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2900ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2500ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 6ms (Views: 4.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 14:58:19 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 14:58:19 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 14:58:19 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 14:58:19 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 14:58:19 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 14:58:19 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 14:58:19 +0800
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2730ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"email"=>/\Achenghtmark@gmail\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3510ms
+  MOPED: 127.0.0.1:27017 INSERT       database=app_development collection=users documents=[{"_id"=>BSON::ObjectId('53269d1a4d6172109d000000'), "email"=>"chenghtmark@gmail.com", "salt"=>"$2a$10$FJLWaJ95Y2dfNzpV7yJfZ.", "fish"=>"$2a$10$FJLWaJ95Y2dfNzpV7yJfZ.mJ5kvHYi1kGN3DyI/oZ.935tj0XBsA.", "updated_at"=>2014-03-17 06:58:58 UTC, "created_at"=>2014-03-17 06:58:58 UTC}] flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.4570ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{}, "$orderby"=>{:_id=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4890ms
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 14:59:06 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3060ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3410ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 118ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 14:59:07 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3220ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1990ms
+  Rendered site/index.html.slim within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 5ms (Views: 3.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 14:59:07 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 14:59:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:07 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:07 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:07 +0800
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-03-17 14:59:08 +0800
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 14:59:08 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2740ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2950ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2450ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 6ms (Views: 4.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 14:59:08 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:08 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 14:59:08 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:08 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:08 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:08 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:08 +0800
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 14:59:10 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3190ms
+  Rendered session/new.html.slim within layouts/application (0.6ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2420ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 5ms (Views: 3.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 14:59:10 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:10 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 14:59:10 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:10 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:10 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:10 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:10 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 14:59:14 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4040ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3460ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 69ms (Views: 5.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 14:59:14 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 14:59:14 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:14 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:14 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:14 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:14 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:14 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 14:59:23 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com123", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com123"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3530ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2660ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 6ms (Views: 4.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 14:59:23 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:23 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:23 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 14:59:23 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:23 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:23 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:23 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 14:59:27 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3730ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 117ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 14:59:27 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3590ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2300ms
+  Rendered site/index.html.slim within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 5ms (Views: 3.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 14:59:27 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 14:59:27 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:27 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:27 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:27 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:27 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:27 +0800
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-03-17 14:59:28 +0800
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 14:59:28 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3140ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3000ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 5ms (Views: 4.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 14:59:28 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:28 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:28 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:28 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:28 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 14:59:28 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 14:59:28 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:01:32 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com12345", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6060ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com12345"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4290ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2810ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 24ms (Views: 4.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:01:32 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:01:32 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:01:32 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:01:32 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:01:32 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:01:32 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:01:32 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:02:06 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3550ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3830ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6180ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 64ms (Views: 5.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:02:06 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:02:06 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:02:06 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:02:06 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:02:06 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:02:06 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:02:06 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:03:31 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"mark@cheng.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3340ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"mark@cheng.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3130ms
+  Rendered session/new.html.slim within layouts/application (0.6ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2190ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 6ms (Views: 3.9ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:03:31 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:03:31 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:03:31 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:03:31 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:03:31 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:03:31 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:03:31 +0800
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4620ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"email"=>/\AMark@Cheng\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3460ms
+  MOPED: 127.0.0.1:27017 INSERT       database=app_development collection=users documents=[{"_id"=>BSON::ObjectId('53269e4d4d6172109d010000'), "email"=>"Mark@Cheng.com", "salt"=>"$2a$10$t8riX3bFWxisqGkXMCeP9e", "fish"=>"$2a$10$t8riX3bFWxisqGkXMCeP9egmylOtI0eRAlJ7NcLcmADEEISWltQXO", "updated_at"=>2014-03-17 07:04:00 UTC, "created_at"=>2014-03-17 07:04:00 UTC}] flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.4710ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{}, "$orderby"=>{:_id=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4740ms
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:04:15 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"Mark@Cheng.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2870ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"Mark@Cheng.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3690ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3400ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 67ms (Views: 4.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:04:16 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:04:16 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:04:16 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:04:16 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:04:16 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:04:16 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:04:16 +0800
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"email"=>/\ACheng@mark\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.4220ms
+  MOPED: 127.0.0.1:27017 INSERT       database=app_development collection=users documents=[{"_id"=>BSON::ObjectId('53269ebf4d6172109d020000'), "email"=>"Cheng@mark.com", "salt"=>"$2a$10$tG17eM8NZ5w3HCDUj/sWBu", "fish"=>"$2a$10$tG17eM8NZ5w3HCDUj/sWBuK5J9YWPRpArPY37SxBkAX47IMBhWld.", "updated_at"=>2014-03-17 07:06:00 UTC, "created_at"=>2014-03-17 07:06:00 UTC}] flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.4530ms
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:06:11 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"Cheng@mark.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7260ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"Cheng@mark.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6710ms
+Completed 500 Internal Server Error in 83ms
+
+NoMethodError (undefined method `set_password_reset' for nil:NilClass):
+  app/controllers/session_controller.rb:17:in `create'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:06:13 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:06:13 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:06:13 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:06:13 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:06:13 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:06:13 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:06:13 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:06:28 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"Mark@Cheng.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"Mark@Cheng.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5380ms
+Completed 500 Internal Server Error in 61ms
+
+NoMethodError (undefined method `set_password_reset' for nil:NilClass):
+  app/controllers/session_controller.rb:17:in `create'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:06:56 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"Mark@Cheng.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"Mark@Cheng.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4460ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3590ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 74ms (Views: 4.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:06:56 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:06:56 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:06:56 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:06:56 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:06:56 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:06:56 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:06:56 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:07:00 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3980ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3700ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 65ms (Views: 4.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:07:00 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:07:00 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:07:00 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:07:00 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:07:00 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:07:00 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:07:00 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:07:05 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3890ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3430ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 66ms (Views: 4.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:07:06 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:07:06 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:07:06 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:07:06 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:07:06 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:07:06 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:07:06 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:07:12 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4440ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3900ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 65ms (Views: 5.1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:07:12 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:07:12 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:07:12 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:07:12 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:07:12 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:07:12 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:07:12 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:08:51 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3500ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3550ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3310ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 76ms (Views: 4.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:08:51 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:08:51 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:08:51 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:08:51 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:08:51 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:08:51 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:08:51 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:08:55 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3500ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3840ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3280ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 66ms (Views: 4.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:08:55 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:08:55 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:08:55 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:08:55 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:08:55 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:08:55 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:08:55 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:14:05 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3400ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3450ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 118ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 15:14:05 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3570ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2890ms
+  Rendered site/index.html.slim within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 5ms (Views: 3.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:14:05 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:14:05 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:05 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:05 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:05 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:05 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:05 +0800
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-03-17 15:14:06 +0800
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 15:14:06 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3440ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3580ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 6ms (Views: 4.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:14:06 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:06 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:06 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:06 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:14:06 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:06 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:06 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:14:09 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4350ms
+  Rendered session/new.html.slim within layouts/application (0.9ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4160ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 67ms (Views: 5.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:14:09 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:09 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:14:09 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:09 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:09 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:09 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:09 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:14:16 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4410ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3670ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 65ms (Views: 4.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:14:17 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:17 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:17 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:14:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:14:17 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:16:53 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3540ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3680ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3690ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 81ms (Views: 5.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:16:53 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:16:53 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:16:53 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:16:53 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:16:53 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:16:53 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:16:53 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:16:57 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3200ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3280ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3270ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 65ms (Views: 4.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:16:57 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:16:57 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:16:57 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:16:57 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:16:57 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:16:57 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:16:57 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:17:00 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3850ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3480ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 65ms (Views: 4.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:17:00 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:00 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:00 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:17:00 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:00 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:00 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:00 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 15:17:04 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3080ms
+Redirected to http://localhost:3000/login
+Filter chain halted as :is_authenticated? rendered or redirected
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 15:17:04 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3390ms
+  Rendered session/new.html.slim within layouts/application (1.1ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3660ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 7ms (Views: 6.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:17:04 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:17:04 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:04 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:04 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:04 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:04 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:04 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:17:06 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.7650ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 119ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 15:17:06 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3420ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2600ms
+  Rendered site/index.html.slim within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 6ms (Views: 4.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:17:06 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:06 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:17:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:07 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:07 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:07 +0800
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-03-17 15:17:08 +0800
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 15:17:08 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3440ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2730ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 6ms (Views: 4.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:17:08 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:17:08 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:08 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:08 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:08 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:08 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:08 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:17:11 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4830ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4620ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 64ms (Views: 4.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:17:11 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:11 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:11 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:11 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:17:11 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:11 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:17:11 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:19:13 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3660ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3620ms
+  Rendered session/new.html.slim within layouts/application (3.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3410ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 69ms (Views: 7.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:19:13 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:13 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:19:13 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:13 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:13 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:13 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:13 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:19:24 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3870ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3390ms
+  Rendered session/new.html.slim within layouts/application (3.3ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5330ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 69ms (Views: 7.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:19:24 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:24 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:24 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:24 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:24 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:19:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:24 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:19:29 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4560ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4050ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 67ms (Views: 5.1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:19:29 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:19:29 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:29 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:29 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:29 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:29 +0800
+
+
+Started GET "/l" for 127.0.0.1 at 2014-03-17 15:19:38 +0800
+
+ActionController::RoutingError (No route matches [GET] "/l"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.9ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (20.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 15:19:41 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3550ms
+Redirected to http://localhost:3000/login
+Filter chain halted as :is_authenticated? rendered or redirected
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 15:19:41 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3040ms
+  Rendered session/new.html.slim within layouts/application (0.9ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2620ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 6ms (Views: 4.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:19:41 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:19:41 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:41 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:41 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:41 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:41 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:41 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:19:44 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4690ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 117ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 15:19:44 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3370ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2870ms
+  Rendered site/index.html.slim within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 5ms (Views: 3.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:19:45 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:45 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:45 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:19:45 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:45 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:45 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:45 +0800
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-03-17 15:19:46 +0800
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 15:19:46 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3080ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3440ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 5ms (Views: 4.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:19:46 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:46 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:46 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:46 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:19:46 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:46 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:46 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:19:55 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"mark@cheng.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2940ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"mark@cheng.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3020ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2150ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 6ms (Views: 3.9ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:19:56 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:19:56 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:56 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:56 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:56 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:56 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:19:56 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:21:53 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8070ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 1.9030ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3670ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 67ms (Views: 5.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:21:53 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:21:53 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:21:53 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:21:53 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:21:53 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:21:53 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:21:53 +0800
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8090ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"email"=>/\AJackChan$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3170ms
+  MOPED: 127.0.0.1:27017 INSERT       database=app_development collection=users documents=[{"_id"=>BSON::ObjectId('5326a2b54d6172109d030000'), "email"=>"JackChan", "salt"=>"$2a$10$mYP4fLQvDA19gXGg5hBlpe", "fish"=>"$2a$10$mYP4fLQvDA19gXGg5hBlpeYJMHvV8/37ur9Fn9IlGT2PLtT5p.oUG", "updated_at"=>2014-03-17 07:22:42 UTC, "created_at"=>2014-03-17 07:22:42 UTC}] flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.4890ms
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:22:57 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3120ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3630ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3520ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 64ms (Views: 4.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:22:57 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:22:57 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:22:57 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:22:57 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:22:57 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:22:57 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:22:57 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:23:05 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"JackChan", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"JackChan"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4420ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3760ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 66ms (Views: 4.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:23:05 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:23:05 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:23:05 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:23:05 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:23:05 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:23:05 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:23:05 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:23:08 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5010ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 117ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 15:23:08 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3250ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3250ms
+  Rendered site/index.html.slim within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 5ms (Views: 3.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:23:08 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:23:08 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:23:08 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:23:08 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:23:08 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:23:08 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:23:08 +0800
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-03-17 15:23:10 +0800
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 15:23:10 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3900ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2740ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 7ms (Views: 5.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:23:10 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:23:10 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:23:10 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:23:10 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:23:10 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:23:10 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:23:10 +0800
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 15:31:53 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3030ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2420ms
+  Rendered session/new.html.slim within layouts/application (1.4ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2460ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 7ms (Views: 5.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:31:53 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:31:53 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:31:53 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:31:53 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:31:53 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:31:53 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:31:53 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:31:56 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4610ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3090ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 65ms (Views: 4.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:31:56 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:31:56 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:31:56 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:31:56 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:31:56 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:31:56 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:31:56 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:34:12 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3250ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3160ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"n-wAYGM2GT2H5ClqFqEpow", "expires_at"=>2014-03-17 11:34:12 UTC, "updated_at"=>2014-03-17 07:34:12 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 1.4030ms
+  Rendered session/new.html.slim within layouts/application (1.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2780ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 25ms (Views: 5.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:34:12 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:34:12 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:34:12 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:34:12 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:34:12 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:34:12 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:34:12 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 15:34:15 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6160ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4410ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"E5riFDCyAT2qeQ_7XdxchA", "expires_at"=>2014-03-17 11:34:15 UTC, "updated_at"=>2014-03-17 07:34:15 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.6570ms
+  Rendered session/new.html.slim within layouts/application (1.1ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2590ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 11ms (Views: 5.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 15:34:15 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 15:34:15 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 15:34:15 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 15:34:15 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 15:34:15 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 15:34:15 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 15:34:15 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:13:23 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4270ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3990ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"OYUAJXk_zFx5g-VCzPICoA", "expires_at"=>2014-03-17 12:13:24 UTC, "updated_at"=>2014-03-17 08:13:24 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.4950ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2480ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 244ms (Views: 4.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:13:24 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:13:24 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:13:24 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:13:24 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:13:24 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:13:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:13:24 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:13:28 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4160ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"LmOljc0cND6ENwMi5bo9WA", "expires_at"=>2014-03-17 12:13:28 UTC, "updated_at"=>2014-03-17 08:13:28 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.2920ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3290ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 7ms (Views: 4.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:13:28 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:13:29 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:13:29 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:13:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:13:29 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:13:29 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:13:29 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:14:02 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3060ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4160ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"DbFFJOM7YE6hO_40D9krVw", "expires_at"=>2014-03-17 12:14:02 UTC, "updated_at"=>2014-03-17 08:14:02 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3240ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5150ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 8ms (Views: 4.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:14:03 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:14:03 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:14:03 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:14:03 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:14:03 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:14:03 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:14:03 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:18:48 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3390ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3400ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"ldzt7Hi94QOgc_DmAhKZcw", "expires_at"=>2014-03-17 12:18:48 UTC, "updated_at"=>2014-03-17 08:18:48 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.2870ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2940ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 18ms (Views: 4.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:18:48 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:18:48 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:18:48 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:18:48 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:18:48 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:18:48 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:18:48 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:18:52 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4320ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"l0IDVkgiJ357Ku5ap8TCZw", "expires_at"=>2014-03-17 12:18:52 UTC, "updated_at"=>2014-03-17 08:18:52 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3390ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2360ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 6ms (Views: 4.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:18:52 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:18:52 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:18:52 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:18:52 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:18:52 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:18:52 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:18:52 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:22:42 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8340ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 2.0790ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"F3v-jKgM4Y9AEaVs12eJnQ", "expires_at"=>2014-03-17 12:22:42 UTC, "updated_at"=>2014-03-17 08:22:42 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.4650ms
+  Rendered session/new.html.slim within layouts/application (21.3ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3930ms
+  Rendered layouts/_messages.html.slim (3.1ms)
+Completed 200 OK in 103ms (Views: 67.9ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:22:42 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:22:42 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:22:42 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:22:42 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:22:42 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:22:42 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:22:42 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:22:45 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4870ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"wCVJa9IoRbF-fvwg1HGWtQ", "expires_at"=>2014-03-17 12:22:45 UTC, "updated_at"=>2014-03-17 08:22:45 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3590ms
+  Rendered session/new.html.slim within layouts/application (1.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2720ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 8ms (Views: 5.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:22:45 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:22:45 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:22:45 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:22:45 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:22:45 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:22:45 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:22:45 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:25:54 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5560ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4030ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"PaIFZmo2QlA_IRaOIywiGg", "expires_at"=>2014-03-17 12:25:54 UTC, "updated_at"=>2014-03-17 08:25:54 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3240ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2220ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 8ms (Views: 4.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:25:54 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:25:54 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:25:54 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:25:54 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:25:54 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:25:54 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:25:54 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:25:58 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4750ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 60ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 16:25:58 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3660ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2520ms
+  Rendered site/index.html.slim within layouts/application (2.0ms)
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 8ms (Views: 5.9ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:25:58 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:25:58 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:25:58 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:25:58 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:25:58 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:25:58 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:25:58 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 16:25:59 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3340ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2270ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2500ms
+  Rendered site/index.html.slim within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 5ms (Views: 3.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:25:59 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:25:59 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:25:59 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:25:59 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:25:59 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:25:59 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:25:59 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:26:00 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:00 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:26:00 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:00 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:00 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:00 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:00 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:26:07 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6110ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"h56F_nAip3bGhP532cqykg", "expires_at"=>2014-03-17 12:26:07 UTC, "updated_at"=>2014-03-17 08:26:07 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3570ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2570ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 8ms (Views: 4.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:26:07 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:26:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:07 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:07 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:07 +0800
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-03-17 16:26:11 +0800
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 16:26:11 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5260ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2380ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2760ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 6ms (Views: 4.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:26:11 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:11 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:26:11 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:11 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:11 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:11 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:11 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:26:18 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4790ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"FAmozr5dIYbRGGgTsX6fDg", "expires_at"=>2014-03-17 12:26:18 UTC, "updated_at"=>2014-03-17 08:26:18 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.4370ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5310ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 9ms (Views: 6.1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:26:18 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:18 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:26:18 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:18 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:18 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:18 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:26:18 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:27:33 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3540ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3850ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"K5mx1t4R179tu6j2w4anPg", "expires_at"=>2014-03-17 12:27:33 UTC, "updated_at"=>2014-03-17 08:27:33 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.2980ms
+  Rendered user_notifier/reset_password.html.erb (0.8ms)
+
+Sent mail to chenghtmark@gmail.com (8.3ms)
+Date: Mon, 17 Mar 2014 16:27:33 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5326b1f54c669_1125d3fd10296715827997@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/K5mx1t4R179tu6j2w4anPg
+
+If you received this email in error, simply do nothing. The above link will expire at
+12:27 on Mon, 17 Mar 2014
+
+Thanks!
+
+StoryFall
+  Rendered session/new.html.slim within layouts/application (0.9ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3540ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 51ms (Views: 4.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:27:33 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:27:33 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:27:33 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:27:33 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:27:33 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:27:33 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:27:33 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:27:35 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4840ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"q2WdE2SGFbMHc6BPxxnX2Q", "expires_at"=>2014-03-17 12:27:35 UTC, "updated_at"=>2014-03-17 08:27:35 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3400ms
+  Rendered user_notifier/reset_password.html.erb (0.3ms)
+
+Sent mail to chenghtmark@gmail.com (5.0ms)
+Date: Mon, 17 Mar 2014 16:27:35 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5326b1f7a6d0f_1125d3fd10296715828025@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/q2WdE2SGFbMHc6BPxxnX2Q
+
+If you received this email in error, simply do nothing. The above link will expire at
+12:27 on Mon, 17 Mar 2014
+
+Thanks!
+
+StoryFall
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3100ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 18ms (Views: 4.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:27:35 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:27:35 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:27:35 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:27:35 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:27:35 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:27:35 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:27:35 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:28:40 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4260ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3570ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"st_vgaKLfiVau_oVm0zGHw", "expires_at"=>2014-03-17 12:28:40 UTC, "updated_at"=>2014-03-17 08:28:40 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.2800ms
+  Rendered user_notifier/reset_password.html.erb (0.4ms)
+
+Sent mail to chenghtmark@gmail.com (4.2ms)
+Date: Mon, 17 Mar 2014 16:28:40 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5326b23858033_1125d3fd1006d6f6c2812d@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/st_vgaKLfiVau_oVm0zGHw
+
+If you received this email in error, simply do nothing. The above link will expire at
+12:28 on Mon, 17 Mar 2014
+
+Thanks!
+
+StoryFall
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3400ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 30ms (Views: 4.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:28:40 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:28:40 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:40 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:40 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:40 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:40 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:40 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:28:47 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3890ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4100ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 61ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 16:28:47 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3510ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3180ms
+  Rendered site/index.html.slim within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 5ms (Views: 3.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:28:47 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:47 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:28:47 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:47 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:47 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:47 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:47 +0800
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-03-17 16:28:49 +0800
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 16:28:49 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3520ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3190ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 6ms (Views: 4.9ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:28:49 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:28:49 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:49 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:49 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:49 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:49 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:49 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:28:51 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4460ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"3Hig1qglT0L5K4BhSb5uPA", "expires_at"=>2014-03-17 12:28:51 UTC, "updated_at"=>2014-03-17 08:28:51 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3300ms
+  Rendered user_notifier/reset_password.html.erb (0.4ms)
+
+Sent mail to chenghtmark@gmail.com (5.0ms)
+Date: Mon, 17 Mar 2014 16:28:51 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5326b243702d3_1125d3fd1006d6b70282de@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/3Hig1qglT0L5K4BhSb5uPA
+
+If you received this email in error, simply do nothing. The above link will expire at
+12:28 on Mon, 17 Mar 2014
+
+Thanks!
+
+StoryFall
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2740ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 19ms (Views: 4.9ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:28:51 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:51 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:51 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:51 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:28:51 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:51 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:28:51 +0800
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-03-17 16:32:20 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (14.4ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:32:22 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3070ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3260ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"FJSQ7-UonpoLoQyM_2_xKw", "expires_at"=>2014-03-17 12:32:22 UTC, "updated_at"=>2014-03-17 08:32:22 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.2980ms
+  Rendered user_notifier/reset_password.html.erb (0.3ms)
+
+Sent mail to chenghtmark@gmail.com (3.8ms)
+Date: Mon, 17 Mar 2014 16:32:22 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5326b316c974c_1125d3fd1006be9f82831@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/FJSQ7-UonpoLoQyM_2_xKw
+
+If you received this email in error, simply do nothing. The above link will expire at
+12:32 on Mon, 17 Mar 2014
+
+Thanks!
+
+StoryFall
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3650ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 35ms (Views: 4.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:32:22 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:32:22 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:32:22 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:32:22 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:32:22 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:32:22 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:32:22 +0800
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-03-17 16:32:23 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (18.8ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:32:33 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2930ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3540ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"jDl-yHOd8Ze4Us9XkSUZFQ", "expires_at"=>2014-03-17 12:32:33 UTC, "updated_at"=>2014-03-17 08:32:33 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3940ms
+  Rendered user_notifier/reset_password.html.erb (0.3ms)
+
+Sent mail to chenghtmark@gmail.com (4.6ms)
+Date: Mon, 17 Mar 2014 16:32:33 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5326b321385a4_1125d3fd101e324cc284a8@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/jDl-yHOd8Ze4Us9XkSUZFQ
+
+If you received this email in error, simply do nothing. The above link will expire at
+12:32 on Mon, 17 Mar 2014
+
+Thanks!
+
+StoryFall
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4480ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 19ms (Views: 4.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:32:33 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:32:33 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:32:33 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:32:33 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:32:33 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:32:33 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:32:33 +0800
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-03-17 16:32:33 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (13.1ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:34:16 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2930ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3420ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"726__FtKdNEDLYpeTAcZ7Q", "expires_at"=>2014-03-17 12:34:16 UTC, "updated_at"=>2014-03-17 08:34:16 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3630ms
+  Rendered user_notifier/reset_password.html.erb (0.3ms)
+
+Sent mail to chenghtmark@gmail.com (4.3ms)
+Date: Mon, 17 Mar 2014 16:34:16 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5326b3882fc84_1125d3fd10068af7c285a4@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/726__FtKdNEDLYpeTAcZ7Q
+
+If you received this email in error, simply do nothing. The above link will expire at
+12:34 on Mon, 17 Mar 2014
+
+Thanks!
+
+StoryFall
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3010ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 18ms (Views: 4.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:34:16 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:34:16 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:34:16 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:34:16 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:34:16 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:34:16 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:34:16 +0800
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-03-17 16:34:16 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (11.9ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:34:19 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4640ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"o0237EACMosgBUU7bJ6HHQ", "expires_at"=>2014-03-17 12:34:19 UTC, "updated_at"=>2014-03-17 08:34:19 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3160ms
+  Rendered user_notifier/reset_password.html.erb (0.3ms)
+
+Sent mail to chenghtmark@gmail.com (4.1ms)
+Date: Mon, 17 Mar 2014 16:34:19 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5326b38b3b11b_1125d3fd10068af7c28613@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/o0237EACMosgBUU7bJ6HHQ
+
+If you received this email in error, simply do nothing. The above link will expire at
+12:34 on Mon, 17 Mar 2014
+
+Thanks!
+
+StoryFall
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2600ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 22ms (Views: 4.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:34:19 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:34:19 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:34:19 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:34:19 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:34:19 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:34:19 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:34:19 +0800
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-03-17 16:34:19 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (14.3ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:36:27 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7020ms
+  MOPED: Retrying connection attempt 1 more time(s). runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9510ms
+Completed 500 Internal Server Error in 277ms
+
+Moped::Errors::ConnectionFailure (Could not connect to a primary node for replica set #<Moped::Cluster:70184028057700 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>):
+  app/controllers/session_controller.rb:13:in `create'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:36:37 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: Retrying connection attempt 1 more time(s). runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9800ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 2.0190ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"LBS8-eaHq_vmVX8OFmkFfQ", "expires_at"=>2014-03-17 12:36:37 UTC, "updated_at"=>2014-03-17 08:36:37 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3850ms
+  Rendered user_notifier/reset_password.html.erb (0.7ms)
+
+Sent mail to chenghtmark@gmail.com (11.5ms)
+Date: Mon, 17 Mar 2014 16:36:37 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5326b4157cd88_113003fd4fd6caae043480@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/LBS8-eaHq_vmVX8OFmkFfQ
+
+If you received this email in error, simply do nothing. The above link will expire at
+12:36 on Mon, 17 Mar 2014
+
+Thanks!
+
+StoryFall
+  Rendered session/new.html.slim within layouts/application (20.5ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4230ms
+  Rendered layouts/_messages.html.slim (2.6ms)
+Completed 200 OK in 365ms (Views: 83.1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:36:37 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:36:37 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:36:37 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:36:37 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:36:37 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:36:37 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:36:37 +0800
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-03-17 16:36:37 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (14.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 16:36:58 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3610ms
+Redirected to http://localhost:3000/login
+Filter chain halted as :is_authenticated? rendered or redirected
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 16:36:58 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3070ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2240ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 5ms (Views: 4.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:36:58 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:36:58 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:36:58 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:36:58 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:36:58 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:36:58 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:36:58 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:37:02 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6760ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"usviWH07-wgnfeulpkJVTQ", "expires_at"=>2014-03-17 12:37:02 UTC, "updated_at"=>2014-03-17 08:37:02 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.4020ms
+  Rendered user_notifier/reset_password.html.erb (0.4ms)
+
+Sent mail to chenghtmark@gmail.com (8.9ms)
+Date: Mon, 17 Mar 2014 16:37:02 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5326b42e1c740_113003fd4fd6caae043545@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/usviWH07-wgnfeulpkJVTQ
+
+If you received this email in error, simply do nothing. The above link will expire at
+12:37 on Mon, 17 Mar 2014
+
+Thanks!
+
+StoryFall
+  Rendered session/new.html.slim within layouts/application (2.2ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3390ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 32ms (Views: 11.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:37:02 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:37:02 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:37:02 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:37:02 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:37:02 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:37:02 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:37:02 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 16:56:16 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3640ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2830ms
+Redirected to http://localhost:3000/login
+Filter chain halted as :is_authenticated? rendered or redirected
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 16:56:16 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2790ms
+  Rendered session/new.html.slim within layouts/application (5.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3460ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 11ms (Views: 10.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:56:16 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:56:16 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:56:16 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:56:16 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:56:16 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:56:16 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:56:16 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:56:20 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4410ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"S4JN1S2ZnKwaYiSeSxqyTw", "expires_at"=>2014-03-17 12:56:20 UTC, "updated_at"=>2014-03-17 08:56:20 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3660ms
+  Rendered user_notifier/reset_password.html.erb (0.3ms)
+
+Sent mail to chenghtmark@gmail.com (7.5ms)
+Date: Mon, 17 Mar 2014 16:56:20 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5326b8b461859_113003fd4fe10af00436f6@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/S4JN1S2ZnKwaYiSeSxqyTw
+
+If you received this email in error, simply do nothing. The above link will expire at
+12:56 on Mon, 17 Mar 2014
+
+Thanks!
+
+StoryFall
+  Rendered session/new.html.slim within layouts/application (2.1ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3730ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 33ms (Views: 13.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:56:20 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:56:20 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:56:20 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:56:20 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:56:20 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:56:20 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:56:20 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 16:56:30 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4280ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2580ms
+Redirected to http://localhost:3000/login
+Filter chain halted as :is_authenticated? rendered or redirected
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 16:56:30 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2960ms
+  Rendered session/new.html.slim within layouts/application (0.9ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2120ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 6ms (Views: 4.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:56:30 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:56:30 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:56:30 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:56:30 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:56:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:56:30 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:56:30 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:57:31 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3440ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5410ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"0QHusshWaDUvfIYCnpARpw", "expires_at"=>2014-03-17 12:57:31 UTC, "updated_at"=>2014-03-17 08:57:31 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3840ms
+  Rendered user_notifier/reset_password.html.erb (0.4ms)
+
+Sent mail to chenghtmark@gmail.com (9.2ms)
+Date: Mon, 17 Mar 2014 16:57:31 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5326b8fbc27a8_113003fd4feb478b04379c@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/0QHusshWaDUvfIYCnpARpw
+
+If you received this email in error, simply do nothing. The above link will expire at
+12:57 on Mon, 17 Mar 2014
+
+Thanks!
+
+StoryFall
+  Rendered session/new.html.slim within layouts/application (2.1ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3770ms
+  Rendered layouts/_messages.html.slim (0.2ms)
+Completed 200 OK in 33ms (Views: 11.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:57:31 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:57:31 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:57:31 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:57:31 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:57:31 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:57:31 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:57:31 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:58:27 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8970ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4290ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"g9Irt2Jz9FKYZNdyZGwmSw", "expires_at"=>2014-03-17 12:58:27 UTC, "updated_at"=>2014-03-17 08:58:27 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3540ms
+  Rendered user_notifier/reset_password.html.slim (10.2ms)
+  Rendered user_notifier/reset_password.text.erb (1.2ms)
+
+Sent mail to chenghtmark@gmail.com (14.3ms)
+Date: Mon, 17 Mar 2014 16:58:27 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5326b933220b6_1136d3ff25247cbcc517fa@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5326b93320c8a_1136d3ff25247cbcc51699";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5326b93320c8a_1136d3ff25247cbcc51699
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/g9Irt2Jz9FKYZNdyZGwmSw
+
+If you received this email in error, simply do nothing. The above link will expire at
+12:58 on Mon, 17 Mar 2014
+
+Thanks!
+
+StoryFall
+----==_mimepart_5326b93320c8a_1136d3ff25247cbcc51699
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>We receieved a request to reset your ToddyCat credentials Please follow the coded link below </p><p><a href="http://localhost:3000/reset/g9Irt2Jz9FKYZNdyZGwmSw">http://localhost:3000/reset/g9Irt2Jz9FKYZNdyZGwmSw</a></p><p>If you received this email in error, simply do nothing.  The above link will expire at 12:58 on Mon, 17 Mar 2014 </p><p>Thanks! <br />Storyfall :3 </p>
+----==_mimepart_5326b93320c8a_1136d3ff25247cbcc51699--
+
+  Rendered session/new.html.slim within layouts/application (11.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4190ms
+  Rendered layouts/_messages.html.slim (3.6ms)
+Completed 200 OK in 145ms (Views: 74.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:58:27 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:27 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:58:27 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:27 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:27 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:27 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:27 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 16:58:37 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3480ms
+Redirected to http://localhost:3000/login
+Filter chain halted as :is_authenticated? rendered or redirected
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 16:58:37 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2380ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2150ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 5ms (Views: 4.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:58:37 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:58:37 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:37 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:37 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:37 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:37 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:37 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:58:44 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3210ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3910ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 62ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-17 16:58:44 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3110ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3420ms
+  Rendered site/index.html.slim within layouts/application (2.1ms)
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 8ms (Views: 6.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:58:44 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:58:45 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:45 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:45 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:45 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:45 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:45 +0800
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-03-17 16:58:46 +0800
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 0ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-17 16:58:46 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3160ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2670ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 5ms (Views: 4.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:58:46 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:46 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:46 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:46 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:46 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:58:46 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:46 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-17 16:58:48 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5870ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"SoUe7SdgQzbtXrhnJLRIIQ", "expires_at"=>2014-03-17 12:58:48 UTC, "updated_at"=>2014-03-17 08:58:48 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.5680ms
+  Rendered user_notifier/reset_password.html.slim (0.5ms)
+  Rendered user_notifier/reset_password.text.erb (0.2ms)
+
+Sent mail to chenghtmark@gmail.com (19.2ms)
+Date: Mon, 17 Mar 2014 16:58:48 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5326b948ce029_1136d3ff2524798c85199e@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5326b948cca39_1136d3ff2524798c8518a5";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5326b948cca39_1136d3ff2524798c8518a5
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/SoUe7SdgQzbtXrhnJLRIIQ
+
+If you received this email in error, simply do nothing. The above link will expire at
+12:58 on Mon, 17 Mar 2014
+
+Thanks!
+
+StoryFall
+----==_mimepart_5326b948cca39_1136d3ff2524798c8518a5
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>We receieved a request to reset your ToddyCat credentials Please follow the coded link below </p><p><a href="http://localhost:3000/reset/SoUe7SdgQzbtXrhnJLRIIQ">http://localhost:3000/reset/SoUe7SdgQzbtXrhnJLRIIQ</a></p><p>If you received this email in error, simply do nothing.  The above link will expire at 12:58 on Mon, 17 Mar 2014 </p><p>Thanks! <br />Storyfall :3 </p>
+----==_mimepart_5326b948cca39_1136d3ff2524798c8518a5--
+
+  Rendered session/new.html.slim within layouts/application (1.5ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4560ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 48ms (Views: 9.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-17 16:58:48 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-17 16:58:48 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:48 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:48 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:48 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:48 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-17 16:58:48 +0800

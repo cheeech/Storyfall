@@ -10,8 +10,9 @@ gem 'bson_ext'
 gem 'mongoid' , github: "mongoid/mongoid"
 gem 'bcrypt'
 
-group :doc do
+group :development, :test do
 
   gem 'sdoc', require: false
+  gem 'letter_opener'
 end
 
