@@ -2,17 +2,27 @@ class PasswordController < ApplicationController
 
   def edit
     @user = User.find_by code: params[:code]
+    redirect_to login_url, notice: "Your reset link has expired, Please generate a new one" unless @user
   end
 
   def update
     @user = User.find_by code: params[:code]
+    render text: (params[:user][:password]).blank?.to_s + "|" + @user.inspect.to_s
 
-    if @user.update user_params
-      render text: "Success"
 
+    if @user
+    # if user is found
+      if (params[:user][:password]).blank?
+        @user.errors.add(:password, "This field can't be blank")
+      elsif @user.update_attributes user_params
+        render text: "Success!"
+      else
+        render text: "Failure!"
+      end
+
+    # otherwise show a message not found
     else
-
-      render text: "Oopsies"
+      render text: "No code found"
     end
   end
 

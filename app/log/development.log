@@ -35032,3 +35032,2379 @@ Processing by PasswordController#update as HTML
                          COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.5040ms
   Rendered text template (0.0ms)
 Completed 200 OK in 62ms (Views: 0.3ms)
+
+
+Started PATCH "/reset/FTnn9FJSUs2qZrfigMCA-Q" for 127.0.0.1 at 2014-03-18 09:57:16 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"FTnn9FJSUs2qZrfigMCA-Q"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 2.6700ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"FTnn9FJSUs2qZrfigMCA-Q"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 2.8920ms
+Completed 500 Internal Server Error in 57ms
+
+NoMethodError (undefined method `attributes' for true:TrueClass):
+  app/controllers/password_controller.rb:12:in `update'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+
+
+Started PATCH "/reset/FTnn9FJSUs2qZrfigMCA-Q" for 127.0.0.1 at 2014-03-18 09:59:14 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"FTnn9FJSUs2qZrfigMCA-Q"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8230ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"FTnn9FJSUs2qZrfigMCA-Q"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 1.0000ms
+Completed 500 Internal Server Error in 33ms
+
+NoMethodError (undefined method `attributes' for true:TrueClass):
+  app/controllers/password_controller.rb:12:in `update'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started PATCH "/reset/FTnn9FJSUs2qZrfigMCA-Q" for 127.0.0.1 at 2014-03-18 10:00:41 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"FTnn9FJSUs2qZrfigMCA-Q"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3340ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"FTnn9FJSUs2qZrfigMCA-Q"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3270ms
+Completed 500 Internal Server Error in 12ms
+
+NoMethodError (undefined method `attributes' for true:TrueClass):
+  app/controllers/password_controller.rb:12:in `update'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-18 10:02:05 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3240ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3640ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"ARnPZMK8UA024reqVqN5LA", "expires_at"=>2014-03-18 06:02:05 UTC, "updated_at"=>2014-03-18 02:02:05 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.4690ms
+  Rendered user_notifier/reset_password.html.slim (10.9ms)
+  Rendered user_notifier/reset_password.text.erb (0.4ms)
+
+Sent mail to chenghtmark@gmail.com (40.6ms)
+Date: Tue, 18 Mar 2014 10:02:05 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5327a91d843ef_116943fd3bdf40d3c595d3@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5327a91d7db26_116943fd3bdf40d3c59416";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5327a91d7db26_116943fd3bdf40d3c59416
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/ARnPZMK8UA024reqVqN5LA
+
+If you received this email in error, simply do nothing. The above link will expire at
+6:02 on Tue, 18 Mar 2014
+
+Thanks!
+
+StoryFall
+----==_mimepart_5327a91d7db26_116943fd3bdf40d3c59416
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>We receieved a request to reset your ToddyCat credentials Please follow the coded link below </p><p><a href="http://localhost:3000/reset/ARnPZMK8UA024reqVqN5LA">http://localhost:3000/reset/ARnPZMK8UA024reqVqN5LA</a></p><p>If you received this email in error, simply do nothing.  The above link will expire at 6:02 on Tue, 18 Mar 2014 </p><p>Thanks! <br />Storyfall :3 </p>
+----==_mimepart_5327a91d7db26_116943fd3bdf40d3c59416--
+
+  Rendered session/new.html.slim within layouts/application (16.9ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4710ms
+  Rendered layouts/_messages.html.slim (3.5ms)
+Completed 200 OK in 151ms (Views: 77.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 10:02:05 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 10:02:05 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 10:02:05 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 10:02:05 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 10:02:05 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 10:02:05 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 10:02:05 +0800
+
+
+Started GET "/reset/ARnPZMK8UA024reqVqN5LA" for 127.0.0.1 at 2014-03-18 10:02:08 +0800
+Processing by PasswordController#edit as HTML
+  Parameters: {"code"=>"ARnPZMK8UA024reqVqN5LA"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"ARnPZMK8UA024reqVqN5LA"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.7600ms
+  Rendered password/edit.html.slim within layouts/application (4.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2970ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 11ms (Views: 9.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 10:02:08 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 10:02:08 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 10:02:08 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 10:02:08 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 10:02:08 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 10:02:08 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 10:02:08 +0800
+
+
+Started PATCH "/reset/ARnPZMK8UA024reqVqN5LA" for 127.0.0.1 at 2014-03-18 10:02:09 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"ARnPZMK8UA024reqVqN5LA"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3390ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"ARnPZMK8UA024reqVqN5LA"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4050ms
+  Rendered text template (0.1ms)
+Completed 200 OK in 5ms (Views: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 10:24:27 +0800
+Processing by SiteController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+SyntaxError (/Users/markcheng/Documents/General Assembly/WDI/GitHub/Repo/Storyfall/app/app/models/user.rb:60: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/application_controller.rb:15:in `current_user'
+  app/controllers/application_controller.rb:11:in `is_authenticated?'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.4ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 10:25:01 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1290ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 1.0780ms
+Redirected to http://localhost:3000/login
+Filter chain halted as :is_authenticated? rendered or redirected
+Completed 302 Found in 22ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-18 10:25:01 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2710ms
+  Rendered session/new.html.slim within layouts/application (16.2ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3710ms
+  Rendered layouts/_messages.html.slim (2.1ms)
+Completed 200 OK in 67ms (Views: 65.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:01 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:01 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:01 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:01 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:01 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:01 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:01 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 10:25:06 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3620ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3310ms
+Redirected to http://localhost:3000/login
+Filter chain halted as :is_authenticated? rendered or redirected
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-18 10:25:06 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2900ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2850ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 6ms (Views: 5.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:06 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:06 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:06 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:06 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:06 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:06 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:06 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-18 10:25:11 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>""}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4240ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4020ms
+  Rendered layouts/_messages.html.slim (1.4ms)
+Completed 200 OK in 8ms (Views: 6.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:11 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:11 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:11 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:11 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:11 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:11 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:11 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-18 10:25:13 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5780ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3150ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 64ms (Views: 4.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:14 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:14 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:14 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:14 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:14 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:14 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:14 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-18 10:25:17 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4010ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3520ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 63ms (Views: 4.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:17 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:17 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:17 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:17 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-18 10:25:22 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4250ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 60ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 10:25:22 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3630ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2750ms
+  Rendered site/index.html.slim within layouts/application (2.0ms)
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 7ms (Views: 5.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:22 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:22 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:22 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:22 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:22 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:22 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:22 +0800
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-03-18 10:25:24 +0800
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-18 10:25:24 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3920ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2990ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 6ms (Views: 4.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:24 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:24 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:24 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:24 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:24 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:24 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-18 10:25:27 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3990ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"Zfm9yqrPq1ZloNGFOXGxlQ", "expires_at"=>2014-03-18 06:25:27 UTC, "updated_at"=>2014-03-18 02:25:27 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.4180ms
+  Rendered user_notifier/reset_password.html.slim (2.9ms)
+  Rendered user_notifier/reset_password.text.erb (0.4ms)
+
+Sent mail to chenghtmark@gmail.com (17.1ms)
+Date: Tue, 18 Mar 2014 10:25:27 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5327ae973bba6_117653fe86bf968b47504b@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5327ae973a1ea_117653fe86bf968b47492a";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5327ae973a1ea_117653fe86bf968b47492a
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/Zfm9yqrPq1ZloNGFOXGxlQ
+
+If you received this email in error, simply do nothing. The above link will expire at
+6:25 on Tue, 18 Mar 2014
+
+Thanks!
+
+StoryFall
+----==_mimepart_5327ae973a1ea_117653fe86bf968b47492a
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>We receieved a request to reset your ToddyCat credentials Please follow the coded link below </p><p><a href="http://localhost:3000/reset/Zfm9yqrPq1ZloNGFOXGxlQ">http://localhost:3000/reset/Zfm9yqrPq1ZloNGFOXGxlQ</a></p><p>If you received this email in error, simply do nothing.  The above link will expire at 6:25 on Tue, 18 Mar 2014 </p><p>Thanks! <br />Storyfall :3 </p>
+----==_mimepart_5327ae973a1ea_117653fe86bf968b47492a--
+
+  Rendered session/new.html.slim within layouts/application (1.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3740ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 51ms (Views: 10.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:27 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:27 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:27 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:27 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:27 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:27 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:27 +0800
+
+
+Started GET "/reset/Zfm9yqrPq1ZloNGFOXGxlQ" for 127.0.0.1 at 2014-03-18 10:25:29 +0800
+Processing by PasswordController#edit as HTML
+  Parameters: {"code"=>"Zfm9yqrPq1ZloNGFOXGxlQ"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3260ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"Zfm9yqrPq1ZloNGFOXGxlQ"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3450ms
+  Rendered password/edit.html.slim within layouts/application (4.6ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4190ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 11ms (Views: 9.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:29 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 10:25:29 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:29 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:29 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:29 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 10:25:29 +0800
+
+
+Started PATCH "/reset/Zfm9yqrPq1ZloNGFOXGxlQ" for 127.0.0.1 at 2014-03-18 10:25:32 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"Zfm9yqrPq1ZloNGFOXGxlQ"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"Zfm9yqrPq1ZloNGFOXGxlQ"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4250ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.9ms)
+
+
+Started GET "/reset/Zfm9yqrPq1ZloNGFOXGxlQ" for 127.0.0.1 at 2014-03-18 10:25:36 +0800
+Processing by PasswordController#edit as HTML
+  Parameters: {"code"=>"Zfm9yqrPq1ZloNGFOXGxlQ"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"Zfm9yqrPq1ZloNGFOXGxlQ"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4650ms
+  Rendered password/edit.html.slim within layouts/application (1.5ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3700ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 7ms (Views: 5.7ms)
+
+
+Started PATCH "/reset/Zfm9yqrPq1ZloNGFOXGxlQ" for 127.0.0.1 at 2014-03-18 10:25:39 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"Zfm9yqrPq1ZloNGFOXGxlQ"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"Zfm9yqrPq1ZloNGFOXGxlQ"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5550ms
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `attributes' for true:TrueClass):
+  app/controllers/password_controller.rb:12:in `update'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3ms)
+
+
+Started PATCH "/reset/Zfm9yqrPq1ZloNGFOXGxlQ" for 127.0.0.1 at 2014-03-18 11:00:17 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"Zfm9yqrPq1ZloNGFOXGxlQ"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3690ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"Zfm9yqrPq1ZloNGFOXGxlQ"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3380ms
+Completed 500 Internal Server Error in 21ms
+
+NoMethodError (undefined method `attributes' for true:TrueClass):
+  app/controllers/password_controller.rb:12:in `update'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 11:00:26 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3880ms
+Redirected to http://localhost:3000/login
+Filter chain halted as :is_authenticated? rendered or redirected
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-18 11:00:26 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3040ms
+  Rendered session/new.html.slim within layouts/application (0.9ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2410ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 6ms (Views: 4.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:00:26 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:00:26 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:26 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:26 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:26 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:26 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:26 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-18 11:00:29 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3430ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4530ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 61ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 11:00:29 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3680ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3010ms
+  Rendered site/index.html.slim within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 6ms (Views: 4.1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:00:29 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:00:29 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:29 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:29 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:29 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:29 +0800
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-03-18 11:00:30 +0800
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-18 11:00:30 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2840ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2540ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 5ms (Views: 4.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:00:30 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:30 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:00:30 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:30 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:30 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:30 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-18 11:00:33 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4750ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"rerZ0IMH9pC1TvjfH4HIBA", "expires_at"=>2014-03-18 07:00:33 UTC, "updated_at"=>2014-03-18 03:00:33 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3520ms
+  Rendered user_notifier/reset_password.html.slim (0.5ms)
+  Rendered user_notifier/reset_password.text.erb (0.2ms)
+
+Sent mail to chenghtmark@gmail.com (13.9ms)
+Date: Tue, 18 Mar 2014 11:00:33 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5327b6d1271f1_117653fe86a4bb8c8752be@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5327b6d1264bd_117653fe86a4bb8c875173";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5327b6d1264bd_117653fe86a4bb8c875173
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/rerZ0IMH9pC1TvjfH4HIBA
+
+If you received this email in error, simply do nothing. The above link will expire at
+7:00 on Tue, 18 Mar 2014
+
+Thanks!
+
+StoryFall
+----==_mimepart_5327b6d1264bd_117653fe86a4bb8c875173
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>We receieved a request to reset your ToddyCat credentials Please follow the coded link below </p><p><a href="http://localhost:3000/reset/rerZ0IMH9pC1TvjfH4HIBA">http://localhost:3000/reset/rerZ0IMH9pC1TvjfH4HIBA</a></p><p>If you received this email in error, simply do nothing.  The above link will expire at 7:00 on Tue, 18 Mar 2014 </p><p>Thanks! <br />Storyfall :3 </p>
+----==_mimepart_5327b6d1264bd_117653fe86a4bb8c875173--
+
+  Rendered session/new.html.slim within layouts/application (1.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6190ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 39ms (Views: 9.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:00:33 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:33 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:33 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:00:33 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:33 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:33 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:33 +0800
+
+
+Started GET "/reset/rerZ0IMH9pC1TvjfH4HIBA" for 127.0.0.1 at 2014-03-18 11:00:34 +0800
+Processing by PasswordController#edit as HTML
+  Parameters: {"code"=>"rerZ0IMH9pC1TvjfH4HIBA"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3660ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"rerZ0IMH9pC1TvjfH4HIBA"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3750ms
+  Rendered password/edit.html.slim within layouts/application (1.9ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3570ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 8ms (Views: 6.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:00:34 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:00:34 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:34 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:34 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:34 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:34 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:00:34 +0800
+
+
+Started PATCH "/reset/rerZ0IMH9pC1TvjfH4HIBA" for 127.0.0.1 at 2014-03-18 11:00:36 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"rerZ0IMH9pC1TvjfH4HIBA"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"rerZ0IMH9pC1TvjfH4HIBA"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.7650ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.4ms)
+
+
+Started GET "/reset/rerZ0IMH9pC1TvjfH4HIBA" for 127.0.0.1 at 2014-03-18 11:00:38 +0800
+Processing by PasswordController#edit as HTML
+  Parameters: {"code"=>"rerZ0IMH9pC1TvjfH4HIBA"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"rerZ0IMH9pC1TvjfH4HIBA"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5580ms
+  Rendered password/edit.html.slim within layouts/application (2.1ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4650ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 9ms (Views: 7.9ms)
+
+
+Started PATCH "/reset/rerZ0IMH9pC1TvjfH4HIBA" for 127.0.0.1 at 2014-03-18 11:02:04 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"rerZ0IMH9pC1TvjfH4HIBA"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3530ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"rerZ0IMH9pC1TvjfH4HIBA"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3470ms
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `attributes' for true:TrueClass):
+  app/controllers/password_controller.rb:12:in `update'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2ms)
+
+
+Started GET "/reset/rerZ0IMH9pC1TvjfH4HIBA" for 127.0.0.1 at 2014-03-18 11:26:38 +0800
+Processing by PasswordController#edit as HTML
+  Parameters: {"code"=>"rerZ0IMH9pC1TvjfH4HIBA"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3300ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"rerZ0IMH9pC1TvjfH4HIBA"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4180ms
+  Rendered password/edit.html.slim within layouts/application (1.6ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4640ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 28ms (Views: 6.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:26:38 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:26:38 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:26:38 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:26:38 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:26:38 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:26:38 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:26:38 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 11:26:59 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3220ms
+Redirected to http://localhost:3000/login
+Filter chain halted as :is_authenticated? rendered or redirected
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-18 11:26:59 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2670ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2330ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 5ms (Views: 4.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:26:59 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:26:59 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:26:59 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:26:59 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:26:59 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:26:59 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:26:59 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-18 11:27:02 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4240ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 59ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 11:27:02 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3190ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2520ms
+  Rendered site/index.html.slim within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 5ms (Views: 3.1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:27:02 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:27:02 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:02 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:02 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:02 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:02 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:02 +0800
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-03-18 11:27:03 +0800
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 0ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-18 11:27:03 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2650ms
+  Rendered session/new.html.slim within layouts/application (0.6ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2010ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 5ms (Views: 3.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:27:03 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:27:03 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:03 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:03 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:03 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:03 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:03 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-18 11:27:05 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3060ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3630ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"TBJt7nWZB1b-HNbi9xb5Sg", "expires_at"=>2014-03-18 07:27:05 UTC, "updated_at"=>2014-03-18 03:27:05 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3080ms
+  Rendered user_notifier/reset_password.html.slim (0.5ms)
+  Rendered user_notifier/reset_password.text.erb (0.2ms)
+
+Sent mail to chenghtmark@gmail.com (14.5ms)
+Date: Tue, 18 Mar 2014 11:27:05 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5327bd09ebe00_117653fe86c434c04754db@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5327bd09eac57_117653fe86c434c04753b4";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5327bd09eac57_117653fe86c434c04753b4
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/TBJt7nWZB1b-HNbi9xb5Sg
+
+If you received this email in error, simply do nothing. The above link will expire at
+7:27 on Tue, 18 Mar 2014
+
+Thanks!
+
+StoryFall
+----==_mimepart_5327bd09eac57_117653fe86c434c04753b4
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>We receieved a request to reset your ToddyCat credentials Please follow the coded link below </p><p><a href="http://localhost:3000/reset/TBJt7nWZB1b-HNbi9xb5Sg">http://localhost:3000/reset/TBJt7nWZB1b-HNbi9xb5Sg</a></p><p>If you received this email in error, simply do nothing.  The above link will expire at 7:27 on Tue, 18 Mar 2014 </p><p>Thanks! <br />Storyfall :3 </p>
+----==_mimepart_5327bd09eac57_117653fe86c434c04753b4--
+
+  Rendered session/new.html.slim within layouts/application (2.3ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4000ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 52ms (Views: 13.1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:27:06 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:06 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:06 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:06 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:27:06 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:06 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:06 +0800
+
+
+Started GET "/reset/TBJt7nWZB1b-HNbi9xb5Sg" for 127.0.0.1 at 2014-03-18 11:27:07 +0800
+Processing by PasswordController#edit as HTML
+  Parameters: {"code"=>"TBJt7nWZB1b-HNbi9xb5Sg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"TBJt7nWZB1b-HNbi9xb5Sg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6140ms
+  Rendered password/edit.html.slim within layouts/application (2.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2720ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 8ms (Views: 6.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:27:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:07 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:07 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:27:07 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:07 +0800
+
+
+Started PATCH "/reset/TBJt7nWZB1b-HNbi9xb5Sg" for 127.0.0.1 at 2014-03-18 11:27:11 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"TBJt7nWZB1b-HNbi9xb5Sg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"TBJt7nWZB1b-HNbi9xb5Sg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5140ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"salt"=>"$2a$10$ittbrggCG/2E2kQ4ZbSN2u", "fish"=>"$2a$10$ittbrggCG/2E2kQ4ZbSN2unWD1AUAmFrpHORHnA./NEYIwYD9Bxwu", "updated_at"=>2014-03-18 03:27:11 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.6960ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 64ms (Views: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 11:27:20 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3500ms
+Redirected to http://localhost:3000/login
+Filter chain halted as :is_authenticated? rendered or redirected
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-18 11:27:20 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3080ms
+  Rendered session/new.html.slim within layouts/application (1.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2750ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:27:20 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:27:20 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:20 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:20 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:20 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:20 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:20 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-18 11:27:27 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3720ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3300ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg", "expires_at"=>2014-03-18 07:27:27 UTC, "updated_at"=>2014-03-18 03:27:27 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3020ms
+  Rendered user_notifier/reset_password.html.slim (0.5ms)
+  Rendered user_notifier/reset_password.text.erb (0.2ms)
+
+Sent mail to chenghtmark@gmail.com (15.6ms)
+Date: Tue, 18 Mar 2014 11:27:27 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5327bd1f4bb5c_117653fe86c43585c756d1@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5327bd1f4aad7_117653fe86c43585c7559d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5327bd1f4aad7_117653fe86c43585c7559d
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/0HAmEbMWg3NqMC0Z129oCg
+
+If you received this email in error, simply do nothing. The above link will expire at
+7:27 on Tue, 18 Mar 2014
+
+Thanks!
+
+StoryFall
+----==_mimepart_5327bd1f4aad7_117653fe86c43585c7559d
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>We receieved a request to reset your ToddyCat credentials Please follow the coded link below </p><p><a href="http://localhost:3000/reset/0HAmEbMWg3NqMC0Z129oCg">http://localhost:3000/reset/0HAmEbMWg3NqMC0Z129oCg</a></p><p>If you received this email in error, simply do nothing.  The above link will expire at 7:27 on Tue, 18 Mar 2014 </p><p>Thanks! <br />Storyfall :3 </p>
+----==_mimepart_5327bd1f4aad7_117653fe86c43585c7559d--
+
+  Rendered session/new.html.slim within layouts/application (1.6ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.8560ms
+  Rendered layouts/_messages.html.slim (0.3ms)
+Completed 200 OK in 44ms (Views: 12.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:27:27 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:27:27 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:27 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:27 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:27 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:27 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:27 +0800
+
+
+Started GET "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:27:29 +0800
+Processing by PasswordController#edit as HTML
+  Parameters: {"code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5930ms
+  Rendered password/edit.html.slim within layouts/application (5.9ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2460ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 11ms (Views: 9.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:27:29 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:27:29 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:29 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:29 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:29 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:27:29 +0800
+
+
+Started PATCH "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:27:47 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.7740ms
+Completed 500 Internal Server Error in 3ms
+
+ActionView::MissingTemplate (Missing template password/update, application/update with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :slim]}. Searched in:
+  * "/Users/markcheng/Documents/General Assembly/WDI/GitHub/Repo/Storyfall/app/app/views"
+):
+  actionpack (4.0.3) lib/action_view/path_set.rb:46:in `find'
+  actionpack (4.0.3) lib/action_view/lookup_context.rb:122:in `find'
+  actionpack (4.0.3) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionpack (4.0.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.3) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.3) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.3) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:393:in `_run__2272657524396026133__process_action__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  actionpack (4.0.3) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.3) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.3) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:373:in `_run__2160642422667145490__call__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started PATCH "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:28:25 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3920ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6330ms
+Completed 500 Internal Server Error in 3ms
+
+ActionView::MissingTemplate (Missing template password/update, application/update with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :slim]}. Searched in:
+  * "/Users/markcheng/Documents/General Assembly/WDI/GitHub/Repo/Storyfall/app/app/views"
+):
+  actionpack (4.0.3) lib/action_view/path_set.rb:46:in `find'
+  actionpack (4.0.3) lib/action_view/lookup_context.rb:122:in `find'
+  actionpack (4.0.3) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionpack (4.0.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.3) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.3) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.3) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:393:in `_run__2272657524396026133__process_action__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  actionpack (4.0.3) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.3) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.3) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:373:in `_run__2160642422667145490__call__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started PATCH "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:28:31 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4790ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"salt"=>"$2a$10$5B2n.Y6G0I0QI.z16DQOTu", "fish"=>"$2a$10$5B2n.Y6G0I0QI.z16DQOTuHu5Jb2S2dAmk3ftUWtRDKnctSJQRpse", "updated_at"=>2014-03-18 03:28:31 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.4550ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 63ms (Views: 0.3ms)
+
+
+Started GET "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:28:33 +0800
+Processing by PasswordController#edit as HTML
+  Parameters: {"code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5640ms
+  Rendered password/edit.html.slim within layouts/application (1.5ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2640ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 7ms (Views: 5.6ms)
+
+
+Started PATCH "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:28:35 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4950ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.3ms)
+
+
+Started GET "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:28:36 +0800
+Processing by PasswordController#edit as HTML
+  Parameters: {"code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4410ms
+  Rendered password/edit.html.slim within layouts/application (1.4ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4860ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 7ms (Views: 5.6ms)
+
+
+Started PATCH "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:28:49 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3720ms
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template password/update, application/update with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :slim]}. Searched in:
+  * "/Users/markcheng/Documents/General Assembly/WDI/GitHub/Repo/Storyfall/app/app/views"
+):
+  actionpack (4.0.3) lib/action_view/path_set.rb:46:in `find'
+  actionpack (4.0.3) lib/action_view/lookup_context.rb:122:in `find'
+  actionpack (4.0.3) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionpack (4.0.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.3) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.3) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.3) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:393:in `_run__2272657524396026133__process_action__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  actionpack (4.0.3) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.3) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.3) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:373:in `_run__2160642422667145490__call__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started PATCH "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:29:33 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3150ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3570ms
+Completed 500 Internal Server Error in 3ms
+
+ActionView::MissingTemplate (Missing template password/update, application/update with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :slim]}. Searched in:
+  * "/Users/markcheng/Documents/General Assembly/WDI/GitHub/Repo/Storyfall/app/app/views"
+):
+  actionpack (4.0.3) lib/action_view/path_set.rb:46:in `find'
+  actionpack (4.0.3) lib/action_view/lookup_context.rb:122:in `find'
+  actionpack (4.0.3) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionpack (4.0.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.3) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.3) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.3) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:393:in `_run__2272657524396026133__process_action__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  actionpack (4.0.3) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.3) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.3) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:373:in `_run__2160642422667145490__call__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started PATCH "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:30:13 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3440ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3900ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"salt"=>"$2a$10$/lFFV6inX5gbOu.Hf/xoru", "fish"=>"$2a$10$/lFFV6inX5gbOu.Hf/xoruvLFXUigbNtRV28PhsOlkEB6UmyRLSMq", "updated_at"=>2014-03-18 03:30:13 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3950ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 63ms (Views: 0.3ms)
+
+
+Started GET "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:30:14 +0800
+Processing by PasswordController#edit as HTML
+  Parameters: {"code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5740ms
+  Rendered password/edit.html.slim within layouts/application (1.6ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2520ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 7ms (Views: 5.4ms)
+
+
+Started PATCH "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:30:16 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4580ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.2ms)
+
+
+Started GET "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:30:18 +0800
+Processing by PasswordController#edit as HTML
+  Parameters: {"code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5540ms
+  Rendered password/edit.html.slim within layouts/application (1.5ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3120ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 7ms (Views: 5.6ms)
+
+
+Started PATCH "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:30:22 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5780ms
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template password/update, application/update with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :slim]}. Searched in:
+  * "/Users/markcheng/Documents/General Assembly/WDI/GitHub/Repo/Storyfall/app/app/views"
+):
+  actionpack (4.0.3) lib/action_view/path_set.rb:46:in `find'
+  actionpack (4.0.3) lib/action_view/lookup_context.rb:122:in `find'
+  actionpack (4.0.3) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionpack (4.0.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.3) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.3) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.3) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:393:in `_run__2272657524396026133__process_action__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  actionpack (4.0.3) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.3) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.3) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:373:in `_run__2160642422667145490__call__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started PATCH "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:34:24 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3160ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3210ms
+Completed 500 Internal Server Error in 24ms
+
+ActionView::MissingTemplate (Missing template password/update, application/update with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :slim]}. Searched in:
+  * "/Users/markcheng/Documents/General Assembly/WDI/GitHub/Repo/Storyfall/app/app/views"
+):
+  actionpack (4.0.3) lib/action_view/path_set.rb:46:in `find'
+  actionpack (4.0.3) lib/action_view/lookup_context.rb:122:in `find'
+  actionpack (4.0.3) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionpack (4.0.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.3) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.3) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.3) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:393:in `_run__2272657524396026133__process_action__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  actionpack (4.0.3) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.3) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.3) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:373:in `_run__2160642422667145490__call__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started PATCH "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:35:19 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3830ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3820ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 13ms (Views: 0.4ms)
+
+
+Started GET "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:36:15 +0800
+Processing by PasswordController#edit as HTML
+  Parameters: {"code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3560ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3060ms
+  Rendered password/edit.html.slim within layouts/application (1.5ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2500ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 17ms (Views: 5.0ms)
+
+
+Started PATCH "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:36:17 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4140ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:37:27 +0800
+Processing by PasswordController#edit as HTML
+  Parameters: {"code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3520ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3120ms
+  Rendered password/edit.html.slim within layouts/application (1.6ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3000ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 17ms (Views: 5.3ms)
+
+
+Started PATCH "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:37:29 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4170ms
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `+' for true:TrueClass):
+  app/controllers/password_controller.rb:10:in `update'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started PATCH "/reset/0HAmEbMWg3NqMC0Z129oCg" for 127.0.0.1 at 2014-03-18 11:38:03 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"0HAmEbMWg3NqMC0Z129oCg"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3190ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0HAmEbMWg3NqMC0Z129oCg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3610ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 16ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 11:38:14 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3770ms
+Redirected to http://localhost:3000/login
+Filter chain halted as :is_authenticated? rendered or redirected
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-18 11:38:14 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3520ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2770ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 6ms (Views: 4.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:38:14 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:38:14 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:14 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:14 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:14 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:14 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:14 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-18 11:38:16 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3060ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3360ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3220ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 66ms (Views: 4.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:38:17 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:38:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:17 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:17 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:17 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-18 11:38:19 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3410ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3520ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 64ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 11:38:19 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3510ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2820ms
+  Rendered site/index.html.slim within layouts/application (0.1ms)
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 6ms (Views: 4.1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:38:19 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:19 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:38:19 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:19 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:19 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:19 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:19 +0800
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-03-18 11:38:21 +0800
+Processing by SessionController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-18 11:38:21 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3090ms
+  Rendered session/new.html.slim within layouts/application (0.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2130ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 5ms (Views: 4.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:21 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:21 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:21 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:38:21 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:38:21 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:21 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:21 +0800
+
+
+Started POST "/login" for 127.0.0.1 at 2014-03-18 11:38:23 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"email"=>"chenghtmark@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3700ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"email"=>"chenghtmark@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5250ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=app_development collection=users selector={"_id"=>BSON::ObjectId('53269d1a4d6172109d000000')} update={"$set"=>{"code"=>"0_NeGhocLMwgn-oNzeSJwg", "expires_at"=>2014-03-18 07:38:23 UTC, "updated_at"=>2014-03-18 03:38:23 UTC}} flags=[]
+                         COMMAND      database=app_development command={:getlasterror=>1, :w=>1} runtime: 0.3850ms
+  Rendered user_notifier/reset_password.html.slim (0.5ms)
+  Rendered user_notifier/reset_password.text.erb (0.2ms)
+
+Sent mail to chenghtmark@gmail.com (12.9ms)
+Date: Tue, 18 Mar 2014 11:38:23 +0800
+From: StoryFall <webmaster@StoryFall.com>
+To: chenghtmark@gmail.com
+Message-ID: <5327bfafc3b99_117653fe86c8328d875883@Marks-MacBook-Pro.local.mail>
+Subject: [StoryFall] Reset your credentials
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5327bfafc29f4_117653fe86c8328d875725";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5327bfafc29f4_117653fe86c8328d875725
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+We received a request to reset your ToddyCat credentials. To do so, please follow the coded link below:
+
+http://localhost:3000/reset/0_NeGhocLMwgn-oNzeSJwg
+
+If you received this email in error, simply do nothing. The above link will expire at
+7:38 on Tue, 18 Mar 2014
+
+Thanks!
+
+StoryFall
+----==_mimepart_5327bfafc29f4_117653fe86c8328d875725
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>We receieved a request to reset your ToddyCat credentials Please follow the coded link below </p><p><a href="http://localhost:3000/reset/0_NeGhocLMwgn-oNzeSJwg">http://localhost:3000/reset/0_NeGhocLMwgn-oNzeSJwg</a></p><p>If you received this email in error, simply do nothing.  The above link will expire at 7:38 on Tue, 18 Mar 2014 </p><p>Thanks! <br />Storyfall :3 </p>
+----==_mimepart_5327bfafc29f4_117653fe86c8328d875725--
+
+  Rendered session/new.html.slim within layouts/application (2.4ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4370ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 44ms (Views: 11.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:38:23 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:38:23 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:23 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:23 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:23 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:23 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:23 +0800
+
+
+Started GET "/reset/0_NeGhocLMwgn-oNzeSJwg" for 127.0.0.1 at 2014-03-18 11:38:24 +0800
+Processing by PasswordController#edit as HTML
+  Parameters: {"code"=>"0_NeGhocLMwgn-oNzeSJwg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0_NeGhocLMwgn-oNzeSJwg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5830ms
+  Rendered password/edit.html.slim within layouts/application (2.4ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3440ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 8ms (Views: 6.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:38:24 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:38:24 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:24 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:24 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:24 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:38:24 +0800
+
+
+Started PATCH "/reset/0_NeGhocLMwgn-oNzeSJwg" for 127.0.0.1 at 2014-03-18 11:38:29 +0800
+Processing by PasswordController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JCymhzQp9H3MN089fg6E3nBRves94efDqhZ4G7sqDYA=", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Update Password", "code"=>"0_NeGhocLMwgn-oNzeSJwg"}
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"code"=>"0_NeGhocLMwgn-oNzeSJwg"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4340ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 11:56:07 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3100ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3160ms
+Redirected to http://localhost:3000/login
+Filter chain halted as :is_authenticated? rendered or redirected
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-18 11:56:07 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2660ms
+  Rendered session/new.html.slim within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3260ms
+  Rendered layouts/_messages.html.slim (0.0ms)
+Completed 200 OK in 6ms (Views: 4.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 11:56:07 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 11:56:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 11:56:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 11:56:07 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 11:56:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 11:56:07 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 11:56:07 +0800
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-03-18 11:56:20 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-18 12:01:06 +0800
+Processing by SiteController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5440ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2300ms
+Redirected to http://localhost:3000/login
+Filter chain halted as :is_authenticated? rendered or redirected
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2014-03-18 12:01:06 +0800
+Processing by SessionController#new as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2560ms
+  Rendered session/new.html.slim within layouts/application (0.9ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=app_development collection=users selector={"$query"=>{"_id"=>nil}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2960ms
+  Rendered layouts/_messages.html.slim (0.1ms)
+Completed 200 OK in 6ms (Views: 4.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-03-18 12:01:06 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-18 12:01:06 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-18 12:01:06 +0800
+
+
+Started GET "/assets/vendor/noty/packaged/jquery.noty.packaged.min.js?body=1" for 127.0.0.1 at 2014-03-18 12:01:06 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-18 12:01:06 +0800
+
+
+Started GET "/assets/vendor/noty/themes/default.js?body=1" for 127.0.0.1 at 2014-03-18 12:01:06 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-18 12:01:06 +0800
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-03-18 12:01:07 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/markcheng/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (14.9ms)

@@ -16,12 +16,16 @@ class User
 
   before_save :set_random_password, :encrypt_password
   validates :email, presence: true, uniqueness: {case_sensitive: false}
+  validates :password, confirmation: true
 
   def self.authenticate(email, password)
     user = User.find_by email: email
     user if user and user.authenticate(password)
   end
 
+  def self.find_by_code code
+    User.find_by({:code => code, :expires_at => {"$gte" => Time.now.gmtime}})
+  end
 
   def authenticate(password)
     self.fish == BCrypt::Engine.hash_secret(password, self.salt)
