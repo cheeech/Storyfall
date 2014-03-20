@@ -3,8 +3,8 @@ class SiteController < ApplicationController
   before_action :is_authenticated?
 
   def index
+    # render json: User.all.entries
     @users = User.all.entries
-
   end
 
   def privacy
@@ -14,5 +14,7 @@ class SiteController < ApplicationController
   end
 
   def wdi
+    @fuck = "you"
   end
+
 end
