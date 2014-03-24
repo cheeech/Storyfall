@@ -1,0 +1,8 @@
+#content.bs-docs-header.text-center
+  .container
+    h2 = @story.title
+.container.bs-doc-container.text-center
+  ol
+    - @story.messages.each do |s|
+      p
+        = s.content

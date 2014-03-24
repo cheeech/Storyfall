@@ -1,5 +1,5 @@
 App::Application.routes.draw do
-  root 'site#index'
+  root 'story#next_title'
 
   get     'login'  => 'session#new'
   post    'login'  => 'session#create'
@@ -14,6 +14,12 @@ App::Application.routes.draw do
 
   get 'wdi' => 'site#wdi'
 
+  get 'nextstory' => 'story#next_title'
+
+  get 'createstory' => 'story#create_story'
+  post 'createstory' => 'story#create'
+  # get 'story/:code' => 'story#show'
+  # post 'story/:code' => 'story#contribute'
 
 
 
