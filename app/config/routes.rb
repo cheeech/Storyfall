@@ -16,8 +16,8 @@ App::Application.routes.draw do
 
   get 'nextstory' => 'story#next_title'
 
-  get 'createstory' => 'story#create_story'
-  post 'createstory' => 'story#create'
+  get 'createstory' => 'story#new'
+  post 'createstory' => 'story#create_story'
   # get 'story/:code' => 'story#show'
   # post 'story/:code' => 'story#contribute'
 

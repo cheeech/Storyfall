@@ -9,11 +9,11 @@ class Story
   field :title, type: String
   field :index, type: String
 
-# def create_new_story
-
-
-
-
-
+  # def create_story title message
+  #   story = Story.new
+  #   story.title = title
+  #   # story.message = message
+  #   story.save
+  # end
 
 end
