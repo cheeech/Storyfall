@@ -14,5 +14,6 @@ group :development, :test do
 
   gem 'sdoc', require: false
   gem 'letter_opener'
+  gem 'pry'
 end
 

@@ -18,7 +18,7 @@ class StoryController < ApplicationController
 
 
   def create_story
-    if params[:story][:title].blank? || params[:message][:content].blank?
+    if params[:story][:title].blank? || params[:story][:content].blank?
       flash.now[:notice] = "Please enter a title and message"
       render :create_story
     else
@@ -27,8 +27,10 @@ class StoryController < ApplicationController
       story.index = Story.count + 1
 
       message = Message.new
-      message.content = params[:message][:content]
+      message.content = params[:story][:content]
       story.messages << message
+
+
 
       message.save
       story.save
@@ -46,9 +48,19 @@ class StoryController < ApplicationController
     redirect_to :controller => 'story', :action => 'show', :code => @story.index
   end
 
+
   def contribute
+    story = Story.find_by({:index => params[:message][:index]})
 
+    message = Message.new
+    message.content = params[:message][:content]
+    story.messages << message
 
+    message.save
+    story.save
+
+    flash.now[:notice] = "Your contribution has been submitted"
+    redirect_to :controller => 'story', :action => 'show', :code => story.index
   end
 
 

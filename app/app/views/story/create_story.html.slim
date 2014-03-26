@@ -4,10 +4,8 @@
     .form-group
       = f.label :title, class: "sr-only"
       = f.text_field :title, class: "form-control" , placeholder: "Title"
-  = form_for :message, url: createstory_url, html: {id: "createstory"} do |f|
     .form-group
       = f.label :content, class: "sr-only"
       = f.text_field :content, class: "form-control", placeholder: "Story line"
-
     .form-group
       = f.submit "Submit", class: "btn btn-success"

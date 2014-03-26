@@ -10,8 +10,8 @@
 = form_for :message, url: story_url, html: {id: "addmessage"} do |f|
   fieldset
     .form-group
-    = f.label :content, class: "sr-only"
-    = f.text_field :content, class: "form-control", placeholder: "Next part of story"
-
+      = f.label :content, class: "sr-only"
+      = f.text_field :content, class: "form-control", placeholder: "Next part of story"
+      = f.text_field :index, value: @story.index, class: "hide"
     .form-group
-    = f.label "Submit", class: "btn btn-success"
+      = f.submit "Submit", class: "btn btn-success"
