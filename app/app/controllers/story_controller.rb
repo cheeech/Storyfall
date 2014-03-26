@@ -14,6 +14,7 @@ class StoryController < ApplicationController
 
   def show
     @story = Story.find_by({:index => params[:code]})
+    flash.now[:notice] = params[:notice]
   end
 
 
@@ -22,21 +23,23 @@ class StoryController < ApplicationController
       flash.now[:notice] = "Please enter a title and message"
       render :create_story
     else
+      notice = "Your Story has been created"
       story = Story.new
       story.title = params[:story][:title]
       story.index = Story.count + 1
+
+      user = User.find_by({:email => current_user.email})
+      user.stories << story
 
       message = Message.new
       message.content = params[:story][:content]
       story.messages << message
 
-
-
       message.save
       story.save
+      user.save
 
-      flash.now[:notice] = "Your Story has been created"
-      redirect_to :controller => 'story', :action => 'show', :code => story.index
+      redirect_to :controller => 'story', :action => 'show', :code => story.index, :notice => notice
     end
   end
 
@@ -50,6 +53,8 @@ class StoryController < ApplicationController
 
 
   def contribute
+    notice = "Your contribution has been submitted"
+
     story = Story.find_by({:index => params[:message][:index]})
 
     message = Message.new
@@ -59,11 +64,15 @@ class StoryController < ApplicationController
     message.save
     story.save
 
-    flash.now[:notice] = "Your contribution has been submitted"
-    redirect_to :controller => 'story', :action => 'show', :code => story.index
+
+    redirect_to :controller => 'story', :action => 'show', :code => story.index, :notice => notice
   end
 
+  def mystories
 
+    @user = User.find_by({:email => current_user.email})
+    render :my_stories
+  end
 
 end
 

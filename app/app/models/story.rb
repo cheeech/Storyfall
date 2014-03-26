@@ -3,9 +3,10 @@ class Story
   include Mongoid::Document
   include Mongoid::Timestamps
 
+  belongs_to :user
   has_many :messages
 
-  field :creator, type: String
+  field :keeper, type: String
   field :title, type: String
   field :index, type: String
 

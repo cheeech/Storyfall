@@ -21,7 +21,7 @@ App::Application.routes.draw do
   get 'story/:code' => 'story#show', as: :story
   post 'story/:code' => 'story#contribute'
 
-  get 'createmessage' => 'message#new_message'
-
+  get 'mystories' => 'story#mystories'
+  post 'mystories' => 'story#mystories'
 
 end

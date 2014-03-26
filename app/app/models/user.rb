@@ -9,6 +9,7 @@ class User
 
   attr_accessor :password, :password_confirmation
 
+  has_many :stories
 
   field :email, type: String
   field :salt, type: String
