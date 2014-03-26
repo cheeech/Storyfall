@@ -1,0 +1,17 @@
+#content.bs-docs-header.text-center
+  .container
+    h2 = @story.title
+.container.bs-doc-container.text-center
+  ol
+    - @story.messages.each do |s|
+      p
+        = s.content
+
+= form_for :message, url: story_url, html: {id: "addmessage"} do |f|
+  fieldset
+    .form-group
+    = f.label :content, class: "sr-only"
+    = f.text_field :content, class: "form-control", placeholder: "Next part of story"
+
+    .form-group
+    = f.label "Submit", class: "btn btn-success"

@@ -18,9 +18,10 @@ App::Application.routes.draw do
 
   get 'createstory' => 'story#new'
   post 'createstory' => 'story#create_story'
-  # get 'story/:code' => 'story#show'
-  # post 'story/:code' => 'story#contribute'
+  get 'story/:code' => 'story#show', as: :story
+  # post 'story/:code' => 'story#contribute', as: :story
 
+  get 'createmessage' => 'message#new_message'
 
 
 end
