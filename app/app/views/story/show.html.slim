@@ -3,15 +3,18 @@
     h2 = @story.title
 .container.bs-doc-container.text-center
   ol
-    - @story.messages.each do |s|
-      p
-        = s.content
-
+    - @story.messages.each do |msg|
+      - if msg.status == 'approved'
+        p
+          = msg.content
+/ - if current_user.email != @story.keeper
 = form_for :message, url: story_url, html: {id: "addmessage"} do |f|
   fieldset
     .form-group
       = f.label :content, class: "sr-only"
       = f.text_field :content, class: "form-control", placeholder: "Next part of story"
       = f.text_field :index, value: @story.index, class: "hide"
+      = f.text_field :keeper, value: @story.keeper, class: "hide"
+
     .form-group
       = f.submit "Submit", class: "btn btn-success"

@@ -24,4 +24,6 @@ App::Application.routes.draw do
   get 'mystories' => 'story#mystories'
   post 'mystories' => 'story#mystories'
 
+  patch 'approvemessage' => 'story#approve_message'
+
 end

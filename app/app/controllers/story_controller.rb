@@ -29,15 +29,16 @@ class StoryController < ApplicationController
       story.index = Story.count + 1
 
       user = User.find_by({:email => current_user.email})
-      user.stories << story
+
+      story.keeper = user.email
 
       message = Message.new
+      message.status = 'approved'
       message.content = params[:story][:content]
       story.messages << message
 
       message.save
       story.save
-      user.save
 
       redirect_to :controller => 'story', :action => 'show', :code => story.index, :notice => notice
     end
@@ -53,25 +54,42 @@ class StoryController < ApplicationController
 
 
   def contribute
-    notice = "Your contribution has been submitted"
-
     story = Story.find_by({:index => params[:message][:index]})
 
     message = Message.new
     message.content = params[:message][:content]
+    message.status = "pending"
+
     story.messages << message
 
     message.save
     story.save
 
-
+    notice = "Your contribution has been submitted"
     redirect_to :controller => 'story', :action => 'show', :code => story.index, :notice => notice
   end
 
   def mystories
-
-    @user = User.find_by({:email => current_user.email})
+    @stories = Story.where({:keeper => current_user.email})
     render :my_stories
+  end
+
+  def approve_message
+    approved_message = Message.find_by({:_id => params[:message][:msg_id]})
+    approved_message.status = "approved"
+    approved_message.save
+
+    # change all status of pending to dissa
+
+    pending_messages = Message.where({
+      :story_id => approved_message.story_id,
+      :status => "pending",
+      }).update_all({:status => "disapproved"})
+
+    # story = Story.find_by({:_id => approved_message.story_id})
+    # story.keeper =
+    mystories
+
   end
 
 end

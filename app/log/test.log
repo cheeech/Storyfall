@@ -1,0 +1,366 @@
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1670ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 2.3640ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.4550ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2430ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3130ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3700ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2810ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2900ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2560ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2770ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2940ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2990ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3860ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2550ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1150ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2840ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9720ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3290ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2630ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2890ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0870ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2810ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.5340ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2580ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2060ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2620ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1490ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3140ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3610ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2500ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.4880ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2820ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2950ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2530ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0680ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2640ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3200ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2420ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1360ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2250ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2360ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2580ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.3240ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3000ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2690ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2820ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2380ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3000ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3610ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2200ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9820ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2820ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3770ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2660ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2780ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2790ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2990ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3180ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3540ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2420ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2470ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2420ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2540ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2690ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2560ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9860ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2740ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3590ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2490ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2550ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0750ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2660ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2280ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2960ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3940ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2830ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2330ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2540ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2380ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2320ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.1800ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2770ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3680ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3390ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2130ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0490ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3110ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3310ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2490ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.3200ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3080ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3450ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2810ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0410ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2930ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2600ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3230ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3500ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2990ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2410ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2640ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2600ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3000ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3560ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2330ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9870ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2830ms
+  MOPED: 127.0.0.1:27017 INSERT       database=app_test collection=users documents=[{"_id"=>BSON::ObjectId('5333e3c14d61726dd2000000'), "email"=>"test@test.com", "code"=>"_IYWpLbXAsxc4AYwMkVV1Q", "expires_at"=>2014-03-27 12:39:29 UTC, "salt"=>"$2a$10$4lu4iUa46uRhFbL9HyG8cu", "fish"=>"$2a$10$4lu4iUa46uRhFbL9HyG8cuqU0O.hu1GEt7i/tJZmzpfz0BFWqgmQm", "updated_at"=>2014-03-27 08:39:29 UTC, "created_at"=>2014-03-27 08:39:29 UTC}] flags=[]
+                         COMMAND      database=app_test command={:getlasterror=>1, :w=>1} runtime: 101.2270ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3680ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2910ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9790ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2860ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3830ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 1.4060ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1000ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3210ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\A$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.4020ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2860ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.5140ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2670ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3440ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\A$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2880ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0670ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2810ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2950ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2640ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0950ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2690ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3100ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2690ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2440ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2450ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3120ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9660ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3030ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3660ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2470ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2120ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 2.5520ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3330ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0420ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2810ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2170ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2380ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3830ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2380ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1280ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2930ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2650ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2890ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2700ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2390ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1740ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2920ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3040ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2430ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2240ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2270ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0680ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2720ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1510ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3960ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3590ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2340ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2790ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2370ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0820ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3060ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0320ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2620ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2010ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2990ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3710ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3350ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2720ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2140ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1230ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3360ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 1.0600ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.3560ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3430ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4540ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2500ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.4680ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3520ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3810ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3700ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3250ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2290ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2390ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1850ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2780ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2620ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2090ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2400ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2350ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2680ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2890ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1550ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3440ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4910ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.3030ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3400ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4790ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2850ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2400ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2130ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2280ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2390ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0420ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3590ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4920ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0700ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3170ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2570ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2630ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2900ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3520ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2150ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2760ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2470ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3120ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4650ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.3030ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3380ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3500ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2540ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2400ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3270ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3280ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3670ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0370ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3480ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4420ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2360ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2980ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4440ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.3420ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3210ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3880ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2660ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3370ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3610ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.4600ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2830ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0490ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3460ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4980ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1050ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2380ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2370ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2610ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2860ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3240ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3440ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2470ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2260ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3520ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.7460ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1000ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2690ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2160ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2250ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2450ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2380ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2650ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2910ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0800ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest1@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3370ms
+  MOPED: 127.0.0.1:27017 INSERT       database=app_test collection=users documents=[{"_id"=>BSON::ObjectId('5333e9324d617271d0000000'), "email"=>"test1@test.com", "salt"=>"$2a$10$g0PUnBm6vhOz/So9Bd8x1e", "fish"=>"$2a$10$g0PUnBm6vhOz/So9Bd8x1esrdSHXlWX82C8eGG6CMyPGLu/YXCnie", "updated_at"=>2014-03-27 09:02:42 UTC, "created_at"=>2014-03-27 09:02:42 UTC}] flags=[]
+                         COMMAND      database=app_test command={:getlasterror=>1, :w=>1} runtime: 0.4840ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test1@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3890ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.3090ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3130ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest1@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2760ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test1@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4930ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3240ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2790ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2720ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2490ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1700ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest1@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3870ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test1@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4870ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.5860ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2420ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2130ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2300ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2380ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1390ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest2@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3190ms
+  MOPED: 127.0.0.1:27017 INSERT       database=app_test collection=users documents=[{"_id"=>BSON::ObjectId('5333e9484d61727214000000'), "email"=>"test2@test.com", "salt"=>"$2a$10$6WgWLRvygFaBXPe1Thy1Ku", "fish"=>"$2a$10$6WgWLRvygFaBXPe1Thy1KuZKfKOzJXNJ9yNNXMaDaXiE41LRQybD2", "updated_at"=>2014-03-27 09:03:04 UTC, "created_at"=>2014-03-27 09:03:04 UTC}] flags=[]
+                         COMMAND      database=app_test command={:getlasterror=>1, :w=>1} runtime: 0.4740ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test2@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3970ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2860ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest2@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3390ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test2@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4740ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2780ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2680ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2270ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2140ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2340ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.5980ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3500ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2500ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2490ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2140ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest2@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2740ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test2@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3090ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3750ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0480ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest2@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3590ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test2@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4820ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.3270ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3250ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.4520ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2890ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2390ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest2@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2820ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test2@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2990ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3370ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.3160ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3290ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3750ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest2@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3590ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test2@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3790ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3860ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2780ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2000ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8650ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest3@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3500ms
+  MOPED: 127.0.0.1:27017 INSERT       database=app_test collection=users documents=[{"_id"=>BSON::ObjectId('5333e9a84d617272ca000000'), "email"=>"test3@test.com", "salt"=>"$2a$10$JkTCuGGBK1MpbaB5vu2xNO", "fish"=>"$2a$10$JkTCuGGBK1MpbaB5vu2xNOUnn8f.WQKoJadSiLuaC0qttWwgLdANa", "updated_at"=>2014-03-27 09:04:40 UTC, "created_at"=>2014-03-27 09:04:40 UTC}] flags=[]
+                         COMMAND      database=app_test command={:getlasterror=>1, :w=>1} runtime: 0.4850ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test3@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3940ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2070ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3050ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2850ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2340ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2580ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest3@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3000ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test3@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3250ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.4660ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1260ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3140ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3070ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest3@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3030ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test3@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3540ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3530ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2850ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2720ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.3630ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest3@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3610ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test3@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4240ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2700ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2700ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2500ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2360ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2320ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2240ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2790ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Aharry@ga\.co$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3110ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2430ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2130ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>nil} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.2120ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"email"=>/\Atest3@test\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.3000ms
+  MOPED: 127.0.0.1:27017 QUERY        database=app_test collection=users selector={"$query"=>{"email"=>"test3@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3350ms
