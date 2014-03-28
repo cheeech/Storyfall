@@ -35,6 +35,7 @@ class StoryController < ApplicationController
       message = Message.new
       message.status = 'approved'
       message.content = params[:story][:content]
+      message.owner = current_user.email
       story.messages << message
 
       message.save
@@ -59,6 +60,7 @@ class StoryController < ApplicationController
     message = Message.new
     message.content = params[:message][:content]
     message.status = "pending"
+    message.owner = current_user.email
 
     story.messages << message
 
@@ -86,8 +88,9 @@ class StoryController < ApplicationController
       :status => "pending",
       }).update_all({:status => "disapproved"})
 
-    # story = Story.find_by({:_id => approved_message.story_id})
-    # story.keeper =
+    story = Story.find_by({:_id => approved_message.story_id})
+    story.keeper = approved_message.owner
+    story.save
     mystories
 
   end
