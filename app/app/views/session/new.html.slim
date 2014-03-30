@@ -2,23 +2,16 @@
 = form_for :user, url: login_url, html: {id: "loginform"} do |f|
   fieldset
     legend Please Sign In
-    / .form-group = flash.map {|key, value| "#{key.capitalize}: #{value}"}.join(";")
+
     .form-group
       = f.label :email, class: "sr-only"
       = f.text_field :email, class: "form-control", placeholder: "Email Address"
-
-      / label.sr-only for="user_email"  Email
-      / input#user_email name="user[email]" placeholder=("Email Address") type="text"
 
     .form-group
       = f.label :password, class: "sr-only"
       = f.password_field :password, class: "form-control", placeholder: "Password"
 
-
-      / label.sr-only for="user_password"  Password
-      / input#user_password name="user[password]" placeholder="Password" type="passowrd"
-
-    .form-group
-      = f.submit "Sign in", class: "btn btn-success"
+    = f.submit "Sign in", class: "btn btn-success"
+    = f.submit "Register", class: "btn btn-success register-btn"
 
 p To reset your password, simply leave the password field blank and submit the form

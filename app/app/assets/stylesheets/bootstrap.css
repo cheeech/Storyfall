@@ -738,6 +738,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  max-width: 700px;
 }
 @media (min-width: 768px) {
   .container {
@@ -1991,7 +1992,7 @@ select[multiple].input-lg {
   right: 15px;
 }
 .btn {
-/*  display: inline-block;*/
+  display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
   font-size: 14px;
@@ -3652,7 +3653,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-header {
-    float: left;
+   /* float: left;*/
   }
 }
 .navbar-collapse {
@@ -3942,7 +3943,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
-  color: #777;
+  /*color: #777;*/
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {

@@ -31,6 +31,7 @@ class StoryController < ApplicationController
       user = User.find_by({:email => current_user.email})
 
       story.keeper = user.email
+      story.push(contributors: user.email)
 
       message = Message.new
       message.status = 'approved'
@@ -71,9 +72,9 @@ class StoryController < ApplicationController
     redirect_to :controller => 'story', :action => 'show', :code => story.index, :notice => notice
   end
 
-  def mystories
+  def pending
     @stories = Story.where({:keeper => current_user.email})
-    render :my_stories
+    render :pending
   end
 
   def approve_message
@@ -90,10 +91,22 @@ class StoryController < ApplicationController
 
     story = Story.find_by({:_id => approved_message.story_id})
     story.keeper = approved_message.owner
+    story.push(contributors: approved_message.owner)
     story.save
-    mystories
+
+    pending
 
   end
+
+  def my_stories
+
+
+    @my_stories = Story.where({
+      :contributors => current_user.email})
+
+    render :my_stories
+  end
+
 
 end
 

@@ -1,6 +1,5 @@
-#content.bs-docs-header.text-center
-  .container
-    h2 = @story.title
+.container.bs-docs-header.text-center
+  h2 = @story.title
 .container.bs-doc-container.text-center
   ol
     - @story.messages.each do |msg|
@@ -18,3 +17,4 @@
 
     .form-group
       = f.submit "Submit", class: "btn btn-success"
+

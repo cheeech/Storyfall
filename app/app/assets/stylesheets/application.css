@@ -21,13 +21,13 @@ body {
   /*background-color: hsla( 0, 0.0%, 100.0%, 1 );*/
 }
 
-#wrap {
+/*#wrap {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -60px; /* Negative indent footer by its height */
-  padding: 0 0 60px;    /* Pad bottom by footer height */
-}
+  margin: 0 auto -60px;  Negative indent footer by its height
+  padding: 0 0 60px;    /* Pad bottom by footer height
+}*/
 
 h1 {
   margin: 0;
@@ -36,14 +36,15 @@ h1 {
 
 legend {
   text-align: left;
-  font-size: 10px;
+  font-size: 20px;
   line-height: 1.5;
-  color: #5cb85c;
+  color: #5cb90c;
   border-bottom: 1px solid #5cb85c;
 }
 
 .main {
   padding-top: 80px;
+  min-height: 400px;
 }
 
 footer {
@@ -51,10 +52,10 @@ footer {
   background-color: hsla( 0, 0.0%, 96.0%, 1 );
 }
 
-.container .credit {
+/*.container .credit {
   text-align: right;
   margin: 20px 0;
-}
+}*/
 
 footer > .container {
   padding-left: 15px;
@@ -66,15 +67,37 @@ footer > .container {
 }
 
 .user {
-
   vertical-align: center;
+}
+
+.nav-btn{
+  margin-top: 10px;
+  margin-left: 5px;
 
 }
 
+.nav-user{
+  font-size: 10px;
+  float: left;
+  margin-top: 20px;
+  color: white;
+}
 
+.nav-btns{
+  float: right;
+}
 
+.register-btn {
+  margin-left: 10px;
+}
 
+.navbar{
+  background-color: black;
+}
 
+.navbar-brand{
+  color: white;
+}
 
 
 

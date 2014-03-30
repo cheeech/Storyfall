@@ -10,14 +10,30 @@ class SessionController < ApplicationController
   end
 
   def create
-    if params[:user][:password].blank?
-      #password reset flow
-      PasswordResetter.new(flash).handle_reset_request(user_params)
-    else
-      #authenticate password flow
-      return if log_user_in( UserAuthenticator.new(session,flash).authenticate_user(user_params) )
+
+    if params[:commit] == "Sign in"
+      if params[:user][:password].blank?
+        #password reset flow
+        PasswordResetter.new(flash).handle_reset_request(user_params)
+      else
+        #authenticate password flow
+        return if log_user_in( UserAuthenticator.new(session,flash).authenticate_user(user_params) )
+      end
+
+    elsif params[:commit] == "Register"
+      if User.find_by({:email => params[:user][:email]})
+        flash.now[:notice] = "That email is already taken"
+
+      else
+        new_user = User.new
+        new_user.email = params[:user][:email]
+        new_user.password = params[:user][:password]
+        new_user.save
+
+        return if log_user_in( UserAuthenticator.new(session,flash).authenticate_user(user_params) )
+
+      end
     end
-    # (redirect_to root_url and return) if flash.empty?
     render :new
   end
 

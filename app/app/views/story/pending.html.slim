@@ -1,0 +1,21 @@
+ol
+  - @stories.each do |s|
+    p
+      h3 = s.title
+      ol
+        - s.messages.each do |msg|
+          - if msg.status == 'pending'
+            p
+              = msg.content
+            p
+              = form_for msg, url: approvemessage_url, html: {id: "approvemessage"} do |f|
+                fieldset
+                .form-group
+                  = f.text_field :msg_id, value: msg._id, class: 'hide'
+                  = f.submit "Approve", class: "btn btn-success"
+
+              / = link_to "Approve", approvemessage_url, method: :post, class: "btn btn-default text-center"
+          - elsif msg.status == 'approved'
+            p
+              = msg.content
+

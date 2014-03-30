@@ -10,6 +10,6 @@ class Story
   field :keeper, type: String
   field :title, type: String
   field :index, type: String
-  field :contributors, type: String
+  field :contributors, type: Array
 
 end

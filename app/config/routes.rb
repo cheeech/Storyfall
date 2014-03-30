@@ -21,9 +21,11 @@ App::Application.routes.draw do
   get 'story/:code' => 'story#show', as: :story
   post 'story/:code' => 'story#contribute'
 
-  get 'mystories' => 'story#mystories'
-  post 'mystories' => 'story#mystories'
+  get 'pending' => 'story#pending'
+  post 'pending' => 'story#pending'
 
   patch 'approvemessage' => 'story#approve_message'
+
+  get 'mystories' => 'story#my_stories'
 
 end

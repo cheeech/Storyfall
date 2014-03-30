@@ -1,6 +1,6 @@
 = form_for :story, url: createstory_url, html: {id: "createstory"} do |f|
   fieldset
-    legend Please Create a New Story
+    legend = "Create a Story"
     .form-group
       = f.label :title, class: "sr-only"
       = f.text_field :title, class: "form-control" , placeholder: "Title"
