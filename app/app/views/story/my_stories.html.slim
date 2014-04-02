@@ -1,3 +1,16 @@
-ol
+- if @my_stories.count == 0
+  .admin-message
+    = "You currenty have no contributions you lazy fart"
+    p = "Why not contribute to a story or create one of your own!"
+- else
+
   - @my_stories.each do |story|
-    ul = story.title
+    div
+      div
+        h3 = story.title
+      div
+    div
+    - story.messages.each do |msg|
+      - if msg.status == "approved"
+        p
+          = msg.content

@@ -48,10 +48,15 @@ class StoryController < ApplicationController
 
 
   def next_title
+    if Story.count < 1
+      flash.now[:notice] = "There are no stories.  Please create one!"
+      render :create_story
+    else
     rand = rand(Story.count) + 1
     @story = Story.find_by({:index => rand})
     # render :story
     redirect_to :controller => 'story', :action => 'show', :code => @story.index
+    end
   end
 
 
@@ -81,8 +86,6 @@ class StoryController < ApplicationController
     approved_message = Message.find_by({:_id => params[:message][:msg_id]})
     approved_message.status = "approved"
     approved_message.save
-
-    # change all status of pending to dissa
 
     pending_messages = Message.where({
       :story_id => approved_message.story_id,

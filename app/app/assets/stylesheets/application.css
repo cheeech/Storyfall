@@ -38,8 +38,8 @@ legend {
   text-align: left;
   font-size: 20px;
   line-height: 1.5;
-  color: #5cb90c;
-  border-bottom: 1px solid #5cb85c;
+  color: #34282C;
+  border-bottom: 1px solid #34282C;
 }
 
 .main {
@@ -71,8 +71,9 @@ footer > .container {
 }
 
 .nav-btn{
-  margin-top: 10px;
+  margin-top: 12px;
   margin-left: 5px;
+  font-size: 11px;
 
 }
 
@@ -99,8 +100,16 @@ footer > .container {
   color: white;
 }
 
+.admin-message{
+  color: #34282C;
+  font-size: 20px;
+}
 
+.story-box{
+  width: 240px;
+  margin: 10px auto 20px;
 
+}
 
 
 
