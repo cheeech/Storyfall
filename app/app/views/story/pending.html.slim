@@ -13,7 +13,7 @@
           p
             = msg.content
           p
-            = form_for msg, url: approvemessage_url, html: {id: "approvemessage"} do |f|
+            = form_for msg, url: pending_url, html: {id: "approvemessage"} do |f|
               fieldset
               .form-group
                 = f.text_field :msg_id, value: msg._id, class: 'hide'

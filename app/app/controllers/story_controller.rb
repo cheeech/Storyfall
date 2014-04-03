@@ -18,30 +18,23 @@ class StoryController < ApplicationController
   end
 
 
-  def create_story
+  def create
     if params[:story][:title].blank? || params[:story][:content].blank?
       flash.now[:notice] = "Please enter a title and message"
       render :create_story
     else
-      notice = "Your Story has been created"
       story = Story.new
-      story.title = params[:story][:title]
-      story.index = Story.count + 1
-
-      user = User.find_by({:email => current_user.email})
-
-      story.keeper = user.email
-      story.push(contributors: user.email)
+      story.set_title_and_index( story_params )
+      story.set_keeper_to_user_email( user_params )
 
       message = Message.new
-      message.status = 'approved'
-      message.content = params[:story][:content]
-      message.owner = current_user.email
-      story.messages << message
+      message.set_owner_and_status( user_params )
+      message.set_content( story_params )
 
-      message.save
+      story.messages << message
       story.save
 
+      notice = "Your Story has been created"
       redirect_to :controller => 'story', :action => 'show', :code => story.index, :notice => notice
     end
   end
@@ -77,7 +70,7 @@ class StoryController < ApplicationController
     redirect_to :controller => 'story', :action => 'show', :code => story.index, :notice => notice
   end
 
-  def pending
+  def pending_messages
     @stories = Story.where({:keeper => current_user.email})
     render :pending
   end
@@ -102,14 +95,21 @@ class StoryController < ApplicationController
   end
 
   def my_stories
-
-
     @my_stories = Story.where({
       :contributors => current_user.email})
 
     render :my_stories
   end
 
+  private
+
+  def story_params
+    params.require(:story).permit(:title, :content)
+  end
+
+  def user_params
+    current_user
+  end
 
 end
 
